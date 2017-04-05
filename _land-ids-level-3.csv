@@ -1,0 +1,22 @@
+cmip6-id, cmip6-label, cmip6-type
+cmip6.land.grid.horizontal.description, Land > Grid > Horizontal > Description, property
+cmip6.land.grid.horizontal.matches_atmosphere_grid, Land > Grid > Horizontal > Matches Atmosphere Grid, property
+cmip6.land.grid.vertical.description, Land > Grid > Vertical > Description, property
+cmip6.land.grid.vertical.number_of_levels, Land > Grid > Vertical > Number Of Levels, property
+, , 
+cmip6.land.key_properties.basic_approximations, Land > Key Properties > Basic Approximations, property
+cmip6.land.key_properties.land_atmosphere_flux_exchanges, Land > Key Properties > Land Atmosphere Flux Exchanges, property
+cmip6.land.key_properties.atmospheric_coupling, Land > Key Properties > Atmospheric Coupling, property
+cmip6.land.key_properties.land_cover, Land > Key Properties > Land Cover, property
+cmip6.land.key_properties.prognostic_variables, Land > Key Properties > Prognostic Variables, property
+cmip6.land.key_properties.tiling, Land > Key Properties > Tiling, property
+cmip6.land.key_properties.conservation_properties.energy, Land > Key Properties > Conservation Properties > Energy, property
+cmip6.land.key_properties.conservation_properties.water, Land > Key Properties > Conservation Properties > Water, property
+cmip6.land.key_properties.conservation_properties.carbon, Land > Key Properties > Conservation Properties > Carbon, property
+cmip6.land.key_properties.conservation_properties.energy, Land > Key Properties > Conservation Properties > Energy, property
+cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere, Land > Key Properties > Timestepping Framework > Timestep Dependent On Atmosphere, property
+cmip6.land.key_properties.timestepping_framework.timestepping_method, Land > Key Properties > Timestepping Framework > Timestepping Method, property
+cmip6.land.key_properties.software_properties.repository, Land > Key Properties > Software Properties > Repository, property
+cmip6.land.key_properties.software_properties.code_version, Land > Key Properties > Software Properties > Code Version, property
+cmip6.land.key_properties.software_properties.code_languages, Land > Key Properties > Software Properties > Code Languages, property
+, , 

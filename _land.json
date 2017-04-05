@@ -1,0 +1,369 @@
+{
+    "label": "Land", 
+    "description": "Land Surface Realm", 
+    "id": "cmip6.land", 
+    "contact": "David Hassell", 
+    "grid": {
+        "label": "Grid", 
+        "description": "Land surface grid", 
+        "id": "cmip6.land.grid", 
+        "contact": "David Hassell", 
+        "subProcesses": [
+            {
+                "label": "Horizontal", 
+                "description": "Type of horizontal discretisation scheme in ocean", 
+                "id": "cmip6.land.grid.horizontal", 
+                "contact": "David Hassell", 
+                "properties": [
+                    {
+                        "label": "Description", 
+                        "description": "Describe the horizontal grid (not including any tiling)", 
+                        "id": "cmip6.land.grid.horizontal.description", 
+                        "cardinality": "1.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
+                    {
+                        "label": "Matches Atmosphere Grid", 
+                        "description": "Does the horizontal grid match the atmpsphere?", 
+                        "id": "cmip6.land.grid.horizontal.matches_atmosphere_grid", 
+                        "cardinality": "1.1", 
+                        "type": "bool", 
+                        "uiOrdinal": 2
+                    }
+                ]
+            }, 
+            {
+                "label": "Vertical", 
+                "description": "Type of horizontal discretisation scheme in ocean", 
+                "id": "cmip6.land.grid.vertical", 
+                "contact": "David Hassell", 
+                "properties": [
+                    {
+                        "label": "Description", 
+                        "description": "Describe the vertical grid (not including any tiling)", 
+                        "id": "cmip6.land.grid.vertical.description", 
+                        "cardinality": "1.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
+                    {
+                        "label": "Number Of Levels", 
+                        "description": "The total number of vertical levels in the soil", 
+                        "id": "cmip6.land.grid.vertical.number_of_levels", 
+                        "cardinality": "1.1", 
+                        "type": "int", 
+                        "uiOrdinal": 2
+                    }
+                ]
+            }
+        ]
+    }, 
+    "keyProperties": {
+        "label": "Key Properties", 
+        "description": "Land surface key properties", 
+        "id": "cmip6.land.key_properties", 
+        "contact": "David Hassell", 
+        "properties": [
+            {
+                "label": "Basic Approximations", 
+                "description": "Decription of the basic approximations made in the LandSurface model", 
+                "id": "cmip6.land.key_properties.basic_approximations", 
+                "cardinality": "1.1", 
+                "type": "str", 
+                "uiOrdinal": 1
+            }, 
+            {
+                "label": "Land Atmosphere Flux Exchanges", 
+                "description": "TODO.", 
+                "id": "cmip6.land.key_properties.land_atmosphere_flux_exchanges", 
+                "cardinality": "0.N", 
+                "type": "enum", 
+                "enum": {
+                    "label": "Land Atmosphere Flux Exchanges Types", 
+                    "description": "TODO", 
+                    "isOpen": true, 
+                    "choices": [
+                        {
+                            "label": "water", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "energy", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "carbon", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "nitrogen", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "phospherous", 
+                            "description": null
+                        }
+                    ]
+                }, 
+                "uiOrdinal": 2
+            }, 
+            {
+                "label": "Atmospheric Coupling", 
+                "description": "Basic approximations made in the ocean.", 
+                "id": "cmip6.land.key_properties.atmospheric_coupling", 
+                "cardinality": "1.1", 
+                "type": "enum", 
+                "enum": {
+                    "label": "Atmospheric Coupling Types", 
+                    "description": "Treatments of land surface coupling with the Atmosphere model component", 
+                    "isOpen": true, 
+                    "choices": [
+                        {
+                            "label": "implicit", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "semi-implicit", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "explicit", 
+                            "description": null
+                        }
+                    ]
+                }, 
+                "uiOrdinal": 3
+            }, 
+            {
+                "label": "Land Cover", 
+                "description": "Types of land cover defined in the land surface model", 
+                "id": "cmip6.land.key_properties.land_cover", 
+                "cardinality": "1.N", 
+                "type": "enum", 
+                "enum": {
+                    "label": "Land Cover Types", 
+                    "description": "Types of land cover defined in the land surface model", 
+                    "isOpen": true, 
+                    "choices": [
+                        {
+                            "label": "bare soil", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "urban", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "lake", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "ice", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "vegetated", 
+                            "description": null
+                        }
+                    ]
+                }, 
+                "uiOrdinal": 4
+            }, 
+            {
+                "label": "Prognostic Variables", 
+                "description": "List of prognostic variables in the land surface component.", 
+                "id": "cmip6.land.key_properties.prognostic_variables", 
+                "cardinality": "1.N", 
+                "type": "enum", 
+                "enum": {
+                    "label": "Prognostic Vars Types", 
+                    "description": "Prognostic variables included in the land surface scheme", 
+                    "isOpen": true, 
+                    "choices": [
+                        {
+                            "label": "soil temperature", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "soil heat content", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "soil moisture", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "soil ice content", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "snow mass", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "snow albedo", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "snow density", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "snow water content", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "snow layer thickness", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "snow ", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "canopy water content", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "canopy heat content", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "canopy snow content", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "canopy skin temperature", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "surface skin temperature", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "river water discharge", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "carbon", 
+                            "description": null
+                        }, 
+                        {
+                            "label": "nitrogen", 
+                            "description": null
+                        }
+                    ]
+                }, 
+                "uiOrdinal": 5
+            }, 
+            {
+                "label": "Tiling", 
+                "description": "Is tiling used in the land surface?", 
+                "id": "cmip6.land.key_properties.tiling", 
+                "cardinality": "1.1", 
+                "type": "bool", 
+                "uiOrdinal": 6
+            }
+        ], 
+        "subProcesses": [
+            {
+                "label": "Conservation Properties", 
+                "description": "Physical properties of seawater in ocean", 
+                "id": "cmip6.land.key_properties.conservation_properties", 
+                "contact": "David Hassell", 
+                "properties": [
+                    {
+                        "label": "Energy", 
+                        "description": "Describe if/how energy is conserved and to what level", 
+                        "id": "cmip6.land.key_properties.conservation_properties.energy", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
+                    {
+                        "label": "Water", 
+                        "description": "Describe if/how water is conserved and to what level", 
+                        "id": "cmip6.land.key_properties.conservation_properties.water", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 2
+                    }, 
+                    {
+                        "label": "Carbon", 
+                        "description": "Describe if/how carbon is conserved and to what level", 
+                        "id": "cmip6.land.key_properties.conservation_properties.carbon", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 3
+                    }, 
+                    {
+                        "label": "Energy", 
+                        "description": "Describe if/how energy is conserved and to what level", 
+                        "id": "cmip6.land.key_properties.conservation_properties.energy", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 4
+                    }
+                ]
+            }, 
+            {
+                "label": "Timestepping Framework", 
+                "description": "TODO", 
+                "id": "cmip6.land.key_properties.timestepping_framework", 
+                "contact": "David Hassell", 
+                "properties": [
+                    {
+                        "label": "Timestep Dependent On Atmosphere", 
+                        "description": "Is a time step dependent on the atmosphere coupling?", 
+                        "id": "cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere", 
+                        "cardinality": "1.1", 
+                        "type": "bool", 
+                        "uiOrdinal": 1
+                    }, 
+                    {
+                        "label": "Timestepping Method", 
+                        "description": "Describe time stepping method and associated time step(s)", 
+                        "id": "cmip6.land.key_properties.timestepping_framework.timestepping_method", 
+                        "cardinality": "1.1", 
+                        "type": "str", 
+                        "uiOrdinal": 2
+                    }
+                ]
+            }, 
+            {
+                "label": "Software Properties", 
+                "description": "Software properties of land surface code", 
+                "id": "cmip6.land.key_properties.software_properties", 
+                "contact": "David Hassell", 
+                "properties": [
+                    {
+                        "label": "Repository", 
+                        "description": "Location of code for this component.", 
+                        "id": "cmip6.land.key_properties.software_properties.repository", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
+                    {
+                        "label": "Code Version", 
+                        "description": "Code version identifier.", 
+                        "id": "cmip6.land.key_properties.software_properties.code_version", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 2
+                    }, 
+                    {
+                        "label": "Code Languages", 
+                        "description": "Code language(s).", 
+                        "id": "cmip6.land.key_properties.software_properties.code_languages", 
+                        "cardinality": "0.N", 
+                        "type": "str", 
+                        "uiOrdinal": 3
+                    }
+                ]
+            }
+        ]
+    }, 
+    "processes": []
+}
