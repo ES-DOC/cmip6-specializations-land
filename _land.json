@@ -279,6 +279,226 @@
                     ]
                 }
             ]
+        }, 
+        {
+            "label": "Snow", 
+            "description": "Land surface snow", 
+            "id": "cmip6.land.snow", 
+            "contact": "David Hassell", 
+            "properties": [
+                {
+                    "label": "Tiling", 
+                    "description": "Describe the snow tiling, if any.", 
+                    "id": "cmip6.land.snow.tiling", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Number Of Snow Layers", 
+                    "description": "The number of snow levels used in the land surface scheme/model", 
+                    "id": "cmip6.land.snow.number_of_snow_layers", 
+                    "cardinality": "1.1", 
+                    "type": "int", 
+                    "uiOrdinal": 2
+                }, 
+                {
+                    "label": "Albedo", 
+                    "description": "Description of the treatment of snow albedo", 
+                    "id": "cmip6.land.snow.albedo", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Albedo Methods", 
+                        "description": "Treatment of snow albedo", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "prognostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "diagnostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "constant", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 3
+                }, 
+                {
+                    "label": "Density", 
+                    "description": "Description of the treatment of snow density", 
+                    "id": "cmip6.land.snow.density", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Density Methods", 
+                        "description": "Treatment of snow density", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "prognostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "constant", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 4
+                }, 
+                {
+                    "label": "Water Equivalent", 
+                    "description": "Description of the treatment of the snow water equivalent", 
+                    "id": "cmip6.land.snow.water_equivalent", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Water Equivalent Methods", 
+                        "description": "Treatment of snow water equivalent", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "prognostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "diagnostic", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 5
+                }, 
+                {
+                    "label": "Heat Content", 
+                    "description": "Description of the treatment of the heat content of snow", 
+                    "id": "cmip6.land.snow.heat_content", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Heat Content Methods", 
+                        "description": "Treatment of snow heat content", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "prognostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "diagnostic", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 6
+                }, 
+                {
+                    "label": "Temperature", 
+                    "description": "Description of the treatment of snow temperature", 
+                    "id": "cmip6.land.snow.temperature", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Temperature Methods", 
+                        "description": "Treatment of snow temperature", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "prognostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "diagnostic", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 7
+                }, 
+                {
+                    "label": "Liquid Water Content", 
+                    "description": "Description of the treatment of snow liquid water", 
+                    "id": "cmip6.land.snow.liquid_water_content", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Liquid Water Content Methods", 
+                        "description": "Treatment of snow liquid water", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "prognostic", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "diagnostic", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 8
+                }, 
+                {
+                    "label": "Snow Cover Fractions", 
+                    "description": "Specify cover fractions used in the surface snow scheme", 
+                    "id": "cmip6.land.snow.snow_cover_fractions", 
+                    "cardinality": "1.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Cover Fraction Types", 
+                        "description": "Snow cover fraction types", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "ground snow fraction", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "vegetation snow fraction", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 9
+                }, 
+                {
+                    "label": "Processes", 
+                    "description": "Snow related processes in the land surface scheme", 
+                    "id": "cmip6.land.snow.processes", 
+                    "cardinality": "1.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Snow Processes", 
+                        "description": "Snow-related processes", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "snow interception", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "snow melting", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "snow freezing", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "blowing snow", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 10
+                }
+            ]
         }
     ], 
     "grid": {

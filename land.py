@@ -59,7 +59,7 @@ KEY_PROPERTIES = 'land_key_properties'
 # --------------------------------------------------------------------
 PROCESSES = [
     'land_soil',
-#    'land_snow',
+    'land_snow',
 #    'land_vegetation',
  #   'land_energy_balance',
 #    'land_albedo',

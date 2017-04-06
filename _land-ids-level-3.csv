@@ -42,3 +42,14 @@ cmip6.land.soil.heat_treatment.vertical_discretisation, Land > Soil > Heat Treat
 cmip6.land.soil.heat_treatment.heat_storage, Land > Soil > Heat Treatment > Heat Storage, property
 cmip6.land.soil.heat_treatment.processes, Land > Soil > Heat Treatment > Processes, property
 , , 
+cmip6.land.snow.tiling, Land > Snow > Tiling, property
+cmip6.land.snow.number_of_snow_layers, Land > Snow > Number Of Snow Layers, property
+cmip6.land.snow.albedo, Land > Snow > Albedo, property
+cmip6.land.snow.density, Land > Snow > Density, property
+cmip6.land.snow.water_equivalent, Land > Snow > Water Equivalent, property
+cmip6.land.snow.heat_content, Land > Snow > Heat Content, property
+cmip6.land.snow.temperature, Land > Snow > Temperature, property
+cmip6.land.snow.liquid_water_content, Land > Snow > Liquid Water Content, property
+cmip6.land.snow.snow_cover_fractions, Land > Snow > Snow Cover Fractions, property
+cmip6.land.snow.processes, Land > Snow > Processes, property
+, , 
