@@ -9,3 +9,8 @@ cmip6.land.key_properties, Land > Key Properties, keyprops
 cmip6.land.key_properties.conservation_properties, Land > Key Properties > Conservation Properties, subprocess
 cmip6.land.key_properties.timestepping_framework, Land > Key Properties > Timestepping Framework, subprocess
 cmip6.land.key_properties.software_properties, Land > Key Properties > Software Properties, subprocess
+, , 
+cmip6.land.soil, Land > Soil, process
+cmip6.land.soil.soil_map, Land > Soil > Soil Map, subprocess
+cmip6.land.soil.hydrology, Land > Soil > Hydrology, subprocess
+cmip6.land.soil.heat_treatment, Land > Soil > Heat Treatment, subprocess

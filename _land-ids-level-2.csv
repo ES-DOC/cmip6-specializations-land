@@ -1,2 +1,6 @@
 cmip6-id, cmip6-label, cmip6-type
 , , 
+cmip6.land.soil.hydrology.freezing, Land > Soil > Hydrology > Freezing, property-set
+cmip6.land.soil.hydrology.drainage, Land > Soil > Hydrology > Drainage, property-set
+cmip6.land.soil.hydrology.runoff, Land > Soil > Hydrology > Runoff, property-set
+, , 

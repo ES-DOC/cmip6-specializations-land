@@ -58,7 +58,7 @@ KEY_PROPERTIES = 'land_key_properties'
 # PROCESSES: Processes simulated within the realm
 # --------------------------------------------------------------------
 PROCESSES = [
-#    'land_soil',
+    'land_soil',
 #    'land_snow',
 #    'land_vegetation',
  #   'land_energy_balance',

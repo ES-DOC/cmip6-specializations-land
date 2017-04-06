@@ -20,3 +20,25 @@ cmip6.land.key_properties.software_properties.repository, Land > Key Properties 
 cmip6.land.key_properties.software_properties.code_version, Land > Key Properties > Software Properties > Code Version, property
 cmip6.land.key_properties.software_properties.code_languages, Land > Key Properties > Software Properties > Code Languages, property
 , , 
+cmip6.land.soil.soil_map.description, Land > Soil > Soil Map > Description, property
+cmip6.land.soil.soil_map.structure, Land > Soil > Soil Map > Structure, property
+cmip6.land.soil.soil_map.texture, Land > Soil > Soil Map > Texture, property
+cmip6.land.soil.soil_map.albedo, Land > Soil > Soil Map > Albedo, property
+cmip6.land.soil.soil_map.water_table, Land > Soil > Soil Map > Water Table, property
+cmip6.land.soil.soil_map.soil_depth, Land > Soil > Soil Map > Soil Depth, property
+cmip6.land.soil.hydrology.description, Land > Soil > Hydrology > Description, property
+cmip6.land.soil.hydrology.tiling, Land > Soil > Hydrology > Tiling, property
+cmip6.land.soil.hydrology.number_of_ground_water_layers, Land > Soil > Hydrology > Number Of Ground Water Layers, property
+cmip6.land.soil.hydrology.water_storage_method, Land > Soil > Hydrology > Water Storage Method, property
+cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers, Land > Soil > Hydrology > Freezing > Number Of Ground Ice Layers, property
+cmip6.land.soil.hydrology.freezing.ice_storage_method, Land > Soil > Hydrology > Freezing > Ice Storage Method, property
+cmip6.land.soil.hydrology.freezing.permafrost, Land > Soil > Hydrology > Freezing > Permafrost, property
+cmip6.land.soil.hydrology.drainage.description, Land > Soil > Hydrology > Drainage > Description, property
+cmip6.land.soil.hydrology.runoff.description, Land > Soil > Hydrology > Runoff > Description, property
+cmip6.land.soil.heat_treatment.description, Land > Soil > Heat Treatment > Description, property
+cmip6.land.soil.heat_treatment.tiling, Land > Soil > Heat Treatment > Tiling, property
+cmip6.land.soil.heat_treatment.number_of_ground_heat_layers, Land > Soil > Heat Treatment > Number Of Ground Heat Layers, property
+cmip6.land.soil.heat_treatment.vertical_discretisation, Land > Soil > Heat Treatment > Vertical Discretisation, property
+cmip6.land.soil.heat_treatment.heat_storage, Land > Soil > Heat Treatment > Heat Storage, property
+cmip6.land.soil.heat_treatment.processes, Land > Soil > Heat Treatment > Processes, property
+, , 
