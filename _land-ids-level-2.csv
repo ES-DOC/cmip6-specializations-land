@@ -4,3 +4,5 @@ cmip6.land.soil.hydrology.freezing, Land > Soil > Hydrology > Freezing, property
 cmip6.land.soil.hydrology.drainage, Land > Soil > Hydrology > Drainage, property-set
 cmip6.land.soil.hydrology.runoff, Land > Soil > Hydrology > Runoff, property-set
 , , 
+cmip6.land.vegetation.methods, Land > Vegetation > Methods, property-set
+, , 

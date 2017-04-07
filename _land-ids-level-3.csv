@@ -42,3 +42,20 @@ cmip6.land.soil.heat_treatment.vertical_discretisation, Land > Soil > Heat Treat
 cmip6.land.soil.heat_treatment.heat_storage, Land > Soil > Heat Treatment > Heat Storage, property
 cmip6.land.soil.heat_treatment.processes, Land > Soil > Heat Treatment > Processes, property
 , , 
+cmip6.land.vegetation.description, Land > Vegetation > Description, property
+cmip6.land.vegetation.structure, Land > Vegetation > Structure, property
+cmip6.land.vegetation.texture, Land > Vegetation > Texture, property
+cmip6.land.vegetation.albedo, Land > Vegetation > Albedo, property
+cmip6.land.vegetation.water_table, Land > Vegetation > Water Table, property
+cmip6.land.vegetation.soil_depth, Land > Vegetation > Soil Depth, property
+cmip6.land.vegetation.methods.phenology, Land > Vegetation > Methods > Phenology, property
+cmip6.land.vegetation.methods.phenology_description, Land > Vegetation > Methods > Phenology Description, property
+cmip6.land.vegetation.methods.leaf_area_index, Land > Vegetation > Methods > Leaf Area Index, property
+cmip6.land.vegetation.methods.leaf_area_index_description, Land > Vegetation > Methods > Leaf Area Index Description, property
+cmip6.land.vegetation.methods.biomass, Land > Vegetation > Methods > Biomass, property
+cmip6.land.vegetation.methods.biomass_description, Land > Vegetation > Methods > Biomass Description, property
+cmip6.land.vegetation.methods.biogeography, Land > Vegetation > Methods > Biogeography, property
+cmip6.land.vegetation.methods.biogeography_description, Land > Vegetation > Methods > Biogeography Description, property
+cmip6.land.vegetation.methods.stomatal_resistance, Land > Vegetation > Methods > Stomatal Resistance, property
+cmip6.land.vegetation.methods.stomatal_resistance_description, Land > Vegetation > Methods > Stomatal Resistance Description, property
+, , 

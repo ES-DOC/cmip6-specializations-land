@@ -14,3 +14,5 @@ cmip6.land.soil, Land > Soil, process
 cmip6.land.soil.soil_map, Land > Soil > Soil Map, subprocess
 cmip6.land.soil.hydrology, Land > Soil > Hydrology, subprocess
 cmip6.land.soil.heat_treatment, Land > Soil > Heat Treatment, subprocess
+, , 
+cmip6.land.vegetation, Land > Vegetation, process
