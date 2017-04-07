@@ -226,14 +226,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Basic approximations made in the ocean.</dd><dt><b>Type</b></dt><dd>ENUM:atmospheric_coupling_types</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling</dd>
+        <dt><b>Description</b></dt><dd>Specify the treatment of land surface coupling with the Atmosphere model component</dd><dt><b>Type</b></dt><dd>ENUM:atmospheric_coupling_types</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Basic approximations made in the ocean.</dd><dt><b>Type</b></dt><dd>ENUM:atmospheric_coupling_types</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling</dd>
+        <dt><b>Description</b></dt><dd>Specify the treatment of land surface coupling with the Atmosphere model component</dd><dt><b>Type</b></dt><dd>ENUM:atmospheric_coupling_types</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="implicit"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -464,7 +464,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Physical properties of seawater in ocean</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version, Rich Ellis (CEH), Phillipe Peylin (IPSL)</dd>
+        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version, Rich Ellis (CEH), Phillipe Peylin (IPSL)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="energy"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
