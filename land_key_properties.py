@@ -42,7 +42,7 @@ DETAILS['toplevel'] = {
         ('land_atmosphere_flux_exchanges', 'ENUM:land_atmosphere_flux_exchanges_types', '0.N',
             'TODO.'),
         ('atmospheric_coupling', 'ENUM:atmospheric_coupling_types', '1.1',
-            'Basic approximations made in the ocean.',),
+            'Specify the treatment of land surface coupling with the Atmosphere model component',),
         ('land_cover', 'ENUM:land_cover_types', '1.N',
             'Types of land cover defined in the land surface model'),
         ('prognostic_variables', 'ENUM:prognostic_vars_types', '1.N',
@@ -53,7 +53,7 @@ DETAILS['toplevel'] = {
     }
 
 DETAILS['conservation_properties'] = {
-    'description': 'Physical properties of seawater in ocean',
+    'description': 'TODO',
     'properties' : [
         ('energy', 'str', '0.1',
              'Describe if/how energy is conserved and to what level'),

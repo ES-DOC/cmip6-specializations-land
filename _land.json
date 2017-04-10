@@ -499,6 +499,242 @@
                     "uiOrdinal": 10
                 }
             ]
+        }, 
+        {
+            "label": "Vegetation", 
+            "description": "Land surface soil", 
+            "id": "cmip6.land.vegetation", 
+            "contact": "David Hassell", 
+            "properties": [
+                {
+                    "label": "Description", 
+                    "description": "General description of soil map", 
+                    "id": "cmip6.land.vegetation.description", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Structure", 
+                    "description": "Describe the soil map structure", 
+                    "id": "cmip6.land.vegetation.structure", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 2
+                }, 
+                {
+                    "label": "Texture", 
+                    "description": "Describe the soil map texture", 
+                    "id": "cmip6.land.vegetation.texture", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 3
+                }, 
+                {
+                    "label": "Albedo", 
+                    "description": "Describe the soil map albedo", 
+                    "id": "cmip6.land.vegetation.albedo", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 4
+                }, 
+                {
+                    "label": "Water Table", 
+                    "description": "Describe the soil map water_table", 
+                    "id": "cmip6.land.vegetation.water_table", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 5
+                }, 
+                {
+                    "label": "Soil Depth", 
+                    "description": "Describe the soil map total soil depth", 
+                    "id": "cmip6.land.vegetation.soil_depth", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 6
+                }
+            ], 
+            "propertySets": [
+                {
+                    "label": "Methods", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.vegetation.methods", 
+                    "properties": [
+                        {
+                            "label": "Phenology", 
+                            "description": "Treatment of vegetation phenology", 
+                            "id": "cmip6.land.vegetation.methods.phenology", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Phenology Methods", 
+                                "description": "Treatment of vegetation phenology", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic (vegetation map)", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Phenology Description", 
+                            "description": "General description of the treatment of vegetation phenology", 
+                            "id": "cmip6.land.vegetation.methods.phenology_description", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Leaf Area Index", 
+                            "description": "Treatment of vegetation leaf area index", 
+                            "id": "cmip6.land.vegetation.methods.leaf_area_index", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Leaf Area Index Methods", 
+                                "description": "Treatment of vegetation leaf area index", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prescribed", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Leaf Area Index Description", 
+                            "description": "General description of the treatment of leaf area index", 
+                            "id": "cmip6.land.vegetation.methods.leaf_area_index_description", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 4
+                        }, 
+                        {
+                            "label": "Biomass", 
+                            "description": "Treatment of vegetation biomass ", 
+                            "id": "cmip6.land.vegetation.methods.biomass", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Biomass Methods", 
+                                "description": "Treatment of vegetation biomass", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 5
+                        }, 
+                        {
+                            "label": "Biomass Description", 
+                            "description": "General description of the treatment of vegetation biomass", 
+                            "id": "cmip6.land.vegetation.methods.biomass_description", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 6
+                        }, 
+                        {
+                            "label": "Biogeography", 
+                            "description": "Treatment of vegetation biogeography", 
+                            "id": "cmip6.land.vegetation.methods.biogeography", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Biogeography Methods", 
+                                "description": "Treatment of vegetation biogeography", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 7
+                        }, 
+                        {
+                            "label": "Biogeography Description", 
+                            "description": "General description of the treatment of vegetation biogeography", 
+                            "id": "cmip6.land.vegetation.methods.biogeography_description", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 8
+                        }, 
+                        {
+                            "label": "Stomatal Resistance", 
+                            "description": "Specify the dependancies on vegetation stomatal resistance", 
+                            "id": "cmip6.land.vegetation.methods.stomatal_resistance", 
+                            "cardinality": "1.N", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Stomatal Resistance Methods", 
+                                "description": "Dependancies on vegetation stomatal resistance", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "light", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "temperature", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "water availability", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "CO2", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "O3", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 9
+                        }, 
+                        {
+                            "label": "Stomatal Resistance Description", 
+                            "description": "General description of the treatment of vegetation stomatal resistance", 
+                            "id": "cmip6.land.vegetation.methods.stomatal_resistance_description", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 10
+                        }
+                    ]
+                }
+            ]
         }
     ], 
     "grid": {
@@ -608,7 +844,7 @@
             }, 
             {
                 "label": "Atmospheric Coupling", 
-                "description": "Basic approximations made in the ocean.", 
+                "description": "Specify the treatment of land surface coupling with the Atmosphere model component", 
                 "id": "cmip6.land.key_properties.atmospheric_coupling", 
                 "cardinality": "1.1", 
                 "type": "enum", 
@@ -767,7 +1003,7 @@
         "subProcesses": [
             {
                 "label": "Conservation Properties", 
-                "description": "Physical properties of seawater in ocean", 
+                "description": "TODO", 
                 "id": "cmip6.land.key_properties.conservation_properties", 
                 "contact": "David Hassell", 
                 "properties": [
