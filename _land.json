@@ -972,6 +972,10 @@
                             "description": null
                         }, 
                         {
+                            "label": "canopy height", 
+                            "description": null
+                        }, 
+                        {
                             "label": "surface skin temperature", 
                             "description": null
                         }, 
