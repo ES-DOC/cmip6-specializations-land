@@ -735,6 +735,80 @@
                     ]
                 }
             ]
+        }, 
+        {
+            "label": "Energy Balance", 
+            "description": "Land surface key properties", 
+            "id": "cmip6.land.energy_balance", 
+            "contact": "David Hassell", 
+            "properties": [
+                {
+                    "label": "Tiling", 
+                    "description": "Describe the energy balance, if any.", 
+                    "id": "cmip6.land.energy_balance.tiling", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Nnumber Of Surface Temperature", 
+                    "description": "The numnber of surface temperatures used", 
+                    "id": "cmip6.land.energy_balance.nnumber_of_surface_temperature", 
+                    "cardinality": "1.1", 
+                    "type": "int", 
+                    "uiOrdinal": 2
+                }, 
+                {
+                    "label": "Evaporation Formulation", 
+                    "description": "Specify the formulation method for land surface evaporation", 
+                    "id": "cmip6.land.energy_balance.evaporation_formulation", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Evaporation Formulation Types", 
+                        "description": "Specify the formulation method for land surface evaporation", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "alpha", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "beta", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "combined", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "Monteith potential evaporation", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 3
+                }, 
+                {
+                    "label": "Processes", 
+                    "description": "Describe which processes are included in the energy balance scheme", 
+                    "id": "cmip6.land.energy_balance.processes", 
+                    "cardinality": "1.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Process Types", 
+                        "description": "Processes which are included in the energy balance scheme", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "transpiration", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 4
+                }
+            ]
         }
     ], 
     "grid": {

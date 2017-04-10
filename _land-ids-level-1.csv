@@ -18,3 +18,5 @@ cmip6.land.soil.heat_treatment, Land > Soil > Heat Treatment, subprocess
 cmip6.land.snow, Land > Snow, process
 , , 
 cmip6.land.vegetation, Land > Vegetation, process
+, , 
+cmip6.land.energy_balance, Land > Energy Balance, process
