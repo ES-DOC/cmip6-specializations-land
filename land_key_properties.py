@@ -143,6 +143,7 @@ ENUMERATIONS['prognostic_vars_types'] = {
         ('canopy heat content', None),
         ('canopy snow content', None),
         ('canopy skin temperature', None),
+        ('canopy height', None),
         ('surface skin temperature', None),
         ('river water discharge', None),
         ('carbon', None),
