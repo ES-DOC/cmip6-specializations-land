@@ -1106,6 +1106,321 @@
                     ]
                 }
             ]
+        }, 
+        {
+            "label": "Carbon Cycle", 
+            "description": "Land surface carbon cycle", 
+            "id": "cmip6.land.carbon_cycle", 
+            "contact": "David Hassell", 
+            "subProcesses": [
+                {
+                    "label": "Vegetation", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.carbon_cycle.vegetation", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Number Of Carbon Pools", 
+                            "description": "Enter the number of carbon pools used", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools", 
+                            "cardinality": "1.1", 
+                            "type": "int", 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Carbon Pools", 
+                            "description": "List the carbon pools used", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.carbon_pools", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Forest Stand Dynamics", 
+                            "description": "Describe the treatment of forest stand dyanmics", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 3
+                        }
+                    ], 
+                    "propertySets": [
+                        {
+                            "label": "Photosynthesis", 
+                            "description": "TODO", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.photosynthesis", 
+                            "properties": [
+                                {
+                                    "label": "Method", 
+                                    "description": "Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.photosynthesis.method", 
+                                    "cardinality": "0.1", 
+                                    "type": "str", 
+                                    "uiOrdinal": 1
+                                }
+                            ]
+                        }, 
+                        {
+                            "label": "Autotrophic Respiration", 
+                            "description": "TODO", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration", 
+                            "properties": [
+                                {
+                                    "label": "Parametrised", 
+                                    "description": "Is the method parametrised?", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.parametrised", 
+                                    "cardinality": "1.1", 
+                                    "type": "bool", 
+                                    "uiOrdinal": 1
+                                }, 
+                                {
+                                    "label": "Maintainance Respiration", 
+                                    "description": "Describe the general method used for maintainence respiration", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration", 
+                                    "cardinality": "0.1", 
+                                    "type": "str", 
+                                    "uiOrdinal": 2
+                                }, 
+                                {
+                                    "label": "Growth Respiration", 
+                                    "description": "Describe the general method used for growth respiration", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration", 
+                                    "cardinality": "0.1", 
+                                    "type": "str", 
+                                    "uiOrdinal": 3
+                                }
+                            ]
+                        }, 
+                        {
+                            "label": "Allocation", 
+                            "description": "TODO", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.allocation", 
+                            "properties": [
+                                {
+                                    "label": "Method", 
+                                    "description": "Describe the general principle behind the allocation scheme", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.allocation.method", 
+                                    "cardinality": "1.1", 
+                                    "type": "str", 
+                                    "uiOrdinal": 1
+                                }, 
+                                {
+                                    "label": "Allocation Bins", 
+                                    "description": "Specify the allocation of vegetation carbon bins", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins", 
+                                    "cardinality": "1.1", 
+                                    "type": "enum", 
+                                    "enum": {
+                                        "label": "Allocation Bin Types", 
+                                        "description": "Specify the allocation of vegetation carbon bins", 
+                                        "isOpen": true, 
+                                        "choices": [
+                                            {
+                                                "label": "leaves + stems + roots", 
+                                                "description": null
+                                            }, 
+                                            {
+                                                "label": "leaves + stems + roots (leafy + woody)", 
+                                                "description": null
+                                            }, 
+                                            {
+                                                "label": "leaves + fine roots + coarse roots + stems", 
+                                                "description": null
+                                            }, 
+                                            {
+                                                "label": "whole plant (no distinction)", 
+                                                "description": null
+                                            }
+                                        ]
+                                    }, 
+                                    "uiOrdinal": 2
+                                }, 
+                                {
+                                    "label": "Allocation Fractions", 
+                                    "description": "Describe how the fractions of allocation are calculated", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions", 
+                                    "cardinality": "1.1", 
+                                    "type": "enum", 
+                                    "enum": {
+                                        "label": "Allocation Fraction Types", 
+                                        "description": "Describe how the fractions of allocation are calculated", 
+                                        "isOpen": true, 
+                                        "choices": [
+                                            {
+                                                "label": "fixed", 
+                                                "description": null
+                                            }, 
+                                            {
+                                                "label": "function of vegetation type", 
+                                                "description": null
+                                            }, 
+                                            {
+                                                "label": "function of plant allometry", 
+                                                "description": null
+                                            }, 
+                                            {
+                                                "label": "explicitly calculated", 
+                                                "description": null
+                                            }
+                                        ]
+                                    }, 
+                                    "uiOrdinal": 3
+                                }
+                            ]
+                        }, 
+                        {
+                            "label": "Phenology", 
+                            "description": "TODO", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.phenology", 
+                            "properties": [
+                                {
+                                    "label": "Method", 
+                                    "description": "Describe the general principle behind the phenology scheme", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.phenology.method", 
+                                    "cardinality": "1.1", 
+                                    "type": "str", 
+                                    "uiOrdinal": 1
+                                }
+                            ]
+                        }, 
+                        {
+                            "label": "Mortality", 
+                            "description": "TODO", 
+                            "id": "cmip6.land.carbon_cycle.vegetation.mortality", 
+                            "properties": [
+                                {
+                                    "label": "Method", 
+                                    "description": "Describe the general principle behind the mortality scheme", 
+                                    "id": "cmip6.land.carbon_cycle.vegetation.mortality.method", 
+                                    "cardinality": "1.1", 
+                                    "type": "str", 
+                                    "uiOrdinal": 1
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "label": "Litter", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.carbon_cycle.litter", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Number Of Carbon Pools", 
+                            "description": "Enter the number of carbon pools used", 
+                            "id": "cmip6.land.carbon_cycle.litter.number_of_carbon_pools", 
+                            "cardinality": "1.1", 
+                            "type": "int", 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Carbon Pools", 
+                            "description": "List the carbon pools used", 
+                            "id": "cmip6.land.carbon_cycle.litter.carbon_pools", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Decomposition", 
+                            "description": "List the decomposition methods used", 
+                            "id": "cmip6.land.carbon_cycle.litter.decomposition", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Method", 
+                            "description": "List the general method used", 
+                            "id": "cmip6.land.carbon_cycle.litter.method", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 4
+                        }
+                    ]
+                }, 
+                {
+                    "label": "Soil", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.carbon_cycle.soil", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Number Of Carbon Pools", 
+                            "description": "Enter the number of carbon pools used", 
+                            "id": "cmip6.land.carbon_cycle.soil.number_of_carbon_pools", 
+                            "cardinality": "1.1", 
+                            "type": "int", 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Carbon Pools", 
+                            "description": "List the carbon pools used", 
+                            "id": "cmip6.land.carbon_cycle.soil.carbon_pools", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Decomposition", 
+                            "description": "List the decomposition methods used", 
+                            "id": "cmip6.land.carbon_cycle.soil.decomposition", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Method", 
+                            "description": "List the general method used", 
+                            "id": "cmip6.land.carbon_cycle.soil.method", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 4
+                        }
+                    ]
+                }, 
+                {
+                    "label": "Permafrost Carbon", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.carbon_cycle.permafrost_carbon", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Is Permafrost Included", 
+                            "description": "Is permafrost included?", 
+                            "id": "cmip6.land.carbon_cycle.permafrost_carbon.is_permafrost_included", 
+                            "cardinality": "1.1", 
+                            "type": "bool", 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Emitted Greenhouse Gases", 
+                            "description": "List the GHGs emitted", 
+                            "id": "cmip6.land.carbon_cycle.permafrost_carbon.Emitted_greenhouse_gases", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Decomposition", 
+                            "description": "List the decomposition methods used", 
+                            "id": "cmip6.land.carbon_cycle.permafrost_carbon.decomposition", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Impact On Soil Properties", 
+                            "description": "Describe the impact of permafrost on soil properties", 
+                            "id": "cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 4
+                        }
+                    ]
+                }
+            ]
         }
     ], 
     "grid": {

@@ -6,3 +6,9 @@ cmip6.land.soil.hydrology.runoff, Land > Soil > Hydrology > Runoff, property-set
 , , 
 cmip6.land.vegetation.methods, Land > Vegetation > Methods, property-set
 , , 
+cmip6.land.carbon_cycle.vegetation.photosynthesis, Land > Carbon Cycle > Vegetation > Photosynthesis, property-set
+cmip6.land.carbon_cycle.vegetation.autotrophic_respiration, Land > Carbon Cycle > Vegetation > Autotrophic Respiration, property-set
+cmip6.land.carbon_cycle.vegetation.allocation, Land > Carbon Cycle > Vegetation > Allocation, property-set
+cmip6.land.carbon_cycle.vegetation.phenology, Land > Carbon Cycle > Vegetation > Phenology, property-set
+cmip6.land.carbon_cycle.vegetation.mortality, Land > Carbon Cycle > Vegetation > Mortality, property-set
+, , 

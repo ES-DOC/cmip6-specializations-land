@@ -88,3 +88,28 @@ cmip6.land.albedo.method.biomass, Land > Albedo > Method > Biomass, property
 cmip6.land.albedo.method.biogeography, Land > Albedo > Method > Biogeography, property
 cmip6.land.albedo.method.stomatal_resistance, Land > Albedo > Method > Stomatal Resistance, property
 , , 
+cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools, Land > Carbon Cycle > Vegetation > Number Of Carbon Pools, property
+cmip6.land.carbon_cycle.vegetation.carbon_pools, Land > Carbon Cycle > Vegetation > Carbon Pools, property
+cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics, Land > Carbon Cycle > Vegetation > Forest Stand Dynamics, property
+cmip6.land.carbon_cycle.vegetation.photosynthesis.method, Land > Carbon Cycle > Vegetation > Photosynthesis > Method, property
+cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.parametrised, Land > Carbon Cycle > Vegetation > Autotrophic Respiration > Parametrised, property
+cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration, Land > Carbon Cycle > Vegetation > Autotrophic Respiration > Maintainance Respiration, property
+cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration, Land > Carbon Cycle > Vegetation > Autotrophic Respiration > Growth Respiration, property
+cmip6.land.carbon_cycle.vegetation.allocation.method, Land > Carbon Cycle > Vegetation > Allocation > Method, property
+cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins, Land > Carbon Cycle > Vegetation > Allocation > Allocation Bins, property
+cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions, Land > Carbon Cycle > Vegetation > Allocation > Allocation Fractions, property
+cmip6.land.carbon_cycle.vegetation.phenology.method, Land > Carbon Cycle > Vegetation > Phenology > Method, property
+cmip6.land.carbon_cycle.vegetation.mortality.method, Land > Carbon Cycle > Vegetation > Mortality > Method, property
+cmip6.land.carbon_cycle.litter.number_of_carbon_pools, Land > Carbon Cycle > Litter > Number Of Carbon Pools, property
+cmip6.land.carbon_cycle.litter.carbon_pools, Land > Carbon Cycle > Litter > Carbon Pools, property
+cmip6.land.carbon_cycle.litter.decomposition, Land > Carbon Cycle > Litter > Decomposition, property
+cmip6.land.carbon_cycle.litter.method, Land > Carbon Cycle > Litter > Method, property
+cmip6.land.carbon_cycle.soil.number_of_carbon_pools, Land > Carbon Cycle > Soil > Number Of Carbon Pools, property
+cmip6.land.carbon_cycle.soil.carbon_pools, Land > Carbon Cycle > Soil > Carbon Pools, property
+cmip6.land.carbon_cycle.soil.decomposition, Land > Carbon Cycle > Soil > Decomposition, property
+cmip6.land.carbon_cycle.soil.method, Land > Carbon Cycle > Soil > Method, property
+cmip6.land.carbon_cycle.permafrost_carbon.is_permafrost_included, Land > Carbon Cycle > Permafrost Carbon > Is Permafrost Included, property
+cmip6.land.carbon_cycle.permafrost_carbon.Emitted_greenhouse_gases, Land > Carbon Cycle > Permafrost Carbon > Emitted Greenhouse Gases, property
+cmip6.land.carbon_cycle.permafrost_carbon.decomposition, Land > Carbon Cycle > Permafrost Carbon > Decomposition, property
+cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties, Land > Carbon Cycle > Permafrost Carbon > Impact On Soil Properties, property
+, , 

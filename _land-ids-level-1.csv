@@ -25,3 +25,9 @@ cmip6.land.albedo, Land > Albedo, process
 cmip6.land.albedo.snow_free_albedo, Land > Albedo > Snow Free Albedo, subprocess
 cmip6.land.albedo.snow_albedo, Land > Albedo > Snow Albedo, subprocess
 cmip6.land.albedo.method, Land > Albedo > Method, subprocess
+, , 
+cmip6.land.carbon_cycle, Land > Carbon Cycle, process
+cmip6.land.carbon_cycle.vegetation, Land > Carbon Cycle > Vegetation, subprocess
+cmip6.land.carbon_cycle.litter, Land > Carbon Cycle > Litter, subprocess
+cmip6.land.carbon_cycle.soil, Land > Carbon Cycle > Soil, subprocess
+cmip6.land.carbon_cycle.permafrost_carbon, Land > Carbon Cycle > Permafrost Carbon, subprocess
