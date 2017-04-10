@@ -738,22 +738,22 @@
         }, 
         {
             "label": "Energy Balance", 
-            "description": "Land surface key properties", 
+            "description": "Land surface energy balance", 
             "id": "cmip6.land.energy_balance", 
             "contact": "David Hassell", 
             "properties": [
                 {
                     "label": "Tiling", 
-                    "description": "Describe the energy balance, if any.", 
+                    "description": "Describe the energy balance tiling, if any.", 
                     "id": "cmip6.land.energy_balance.tiling", 
                     "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
                 }, 
                 {
-                    "label": "Nnumber Of Surface Temperature", 
+                    "label": "Number Of Surface Temperature", 
                     "description": "The numnber of surface temperatures used", 
-                    "id": "cmip6.land.energy_balance.nnumber_of_surface_temperature", 
+                    "id": "cmip6.land.energy_balance.number_of_surface_temperature", 
                     "cardinality": "1.1", 
                     "type": "int", 
                     "uiOrdinal": 2
@@ -807,6 +807,303 @@
                         ]
                     }, 
                     "uiOrdinal": 4
+                }
+            ]
+        }, 
+        {
+            "label": "Albedo", 
+            "description": "Land surface albedo", 
+            "id": "cmip6.land.albedo", 
+            "contact": "David Hassell", 
+            "properties": [
+                {
+                    "label": "Tiling", 
+                    "description": "Describe the albedo tiling, if any.", 
+                    "id": "cmip6.land.albedo.tiling", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }
+            ], 
+            "subProcesses": [
+                {
+                    "label": "Snow Free Albedo", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.albedo.snow_free_albedo", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Prognostic", 
+                            "description": "Is snow free albedo prognostic?", 
+                            "id": "cmip6.land.albedo.snow_free_albedo.prognostic", 
+                            "cardinality": "1.1", 
+                            "type": "bool", 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Functions", 
+                            "description": "If prognostic, describe the dependancies on snow free albedo calculations", 
+                            "id": "cmip6.land.albedo.snow_free_albedo.functions", 
+                            "cardinality": "0.N", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Snow Free Albedo Function Types", 
+                                "description": "Describe the dependancies on snow free albedo calculations", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "vegetation type", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "soil humidity", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "vegatation state", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Direct Diffuse", 
+                            "description": "If prognostic, describe the distinction between direct and diffuse albedo", 
+                            "id": "cmip6.land.albedo.snow_free_albedo.direct_diffuse", 
+                            "cardinality": "0.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Direct Diffuse Types", 
+                                "description": "Describe the distinction between direct and diffuse albedo", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "distinction between direct and diffuse albedo", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "no distinction between direct and diffuse albedo", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Number Of Wavelength Bands", 
+                            "description": "If prognostic, enter the number of wavelength bands used", 
+                            "id": "cmip6.land.albedo.snow_free_albedo.number_of_wavelength_bands", 
+                            "cardinality": "0.1", 
+                            "type": "int", 
+                            "uiOrdinal": 4
+                        }
+                    ]
+                }, 
+                {
+                    "label": "Snow Albedo", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.albedo.snow_albedo", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Type", 
+                            "description": "Describe the treatment of snow-covered land albedo", 
+                            "id": "cmip6.land.albedo.snow_albedo.type", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Snow Albedo Type", 
+                                "description": "Describe the treatment of snow-covered land albedo", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "prescribed", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Functions", 
+                            "description": "If prognostic, ", 
+                            "id": "cmip6.land.albedo.snow_albedo.functions", 
+                            "cardinality": "0.N", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Snow Albedo Function Types", 
+                                "description": "Describe the dependancies on snow albedo calculations", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "vegetation type", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "snow age", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "snow density", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "snow grain type", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "aerosol deposition", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 2
+                        }
+                    ]
+                }, 
+                {
+                    "label": "Method", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.albedo.method", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Phenology", 
+                            "description": "Description of the treatment of vegetation phenolo]gy", 
+                            "id": "cmip6.land.albedo.method.phenology", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Phenology Types", 
+                                "description": "Description of the treatment of vegetation phenolo]gy", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic (vegetation map)", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Leaf Area Index", 
+                            "description": "Describe the treatment of the leaf area index", 
+                            "id": "cmip6.land.albedo.method.leaf_area_index", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Leaf Area Index Types", 
+                                "description": "Describe the treatment of the leaf area index", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prescribed", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Biomass", 
+                            "description": "Describe the treatment of vegetation biomass", 
+                            "id": "cmip6.land.albedo.method.biomass", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Biomass Types", 
+                                "description": "Describe the treatment of vegetation biomass", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Biogeography", 
+                            "description": "Describe the treatment of vegatation biogeography", 
+                            "id": "cmip6.land.albedo.method.biogeography", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Biogeography Types", 
+                                "description": "Describe the treatment of vegatation biogeography", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 4
+                        }, 
+                        {
+                            "label": "Stomatal Resistance", 
+                            "description": "Specify the dependancies on vegetation stomatal resistance", 
+                            "id": "cmip6.land.albedo.method.stomatal_resistance", 
+                            "cardinality": "1.N", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Stomatal Resistance Types", 
+                                "description": "Specify the dependancies on vegetation stomatal resistance", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "light", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "temperature", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "water availability", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "CO2", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "O3", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 5
+                        }
+                    ]
                 }
             ]
         }

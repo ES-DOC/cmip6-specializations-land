@@ -62,7 +62,7 @@ PROCESSES = [
     'land_snow',
     'land_vegetation',
     'land_energy_balance',
-#    'land_albedo',
+    'land_albedo',
 #    'land_carbon_cycle',
 #    'land_nitrogen_cycle',
 #    'land_river_routing',

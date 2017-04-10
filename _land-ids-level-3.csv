@@ -71,7 +71,20 @@ cmip6.land.vegetation.methods.stomatal_resistance, Land > Vegetation > Methods >
 cmip6.land.vegetation.methods.stomatal_resistance_description, Land > Vegetation > Methods > Stomatal Resistance Description, property
 , , 
 cmip6.land.energy_balance.tiling, Land > Energy Balance > Tiling, property
-cmip6.land.energy_balance.nnumber_of_surface_temperature, Land > Energy Balance > Nnumber Of Surface Temperature, property
+cmip6.land.energy_balance.number_of_surface_temperature, Land > Energy Balance > Number Of Surface Temperature, property
 cmip6.land.energy_balance.evaporation_formulation, Land > Energy Balance > Evaporation Formulation, property
 cmip6.land.energy_balance.processes, Land > Energy Balance > Processes, property
+, , 
+cmip6.land.albedo.tiling, Land > Albedo > Tiling, property
+cmip6.land.albedo.snow_free_albedo.prognostic, Land > Albedo > Snow Free Albedo > Prognostic, property
+cmip6.land.albedo.snow_free_albedo.functions, Land > Albedo > Snow Free Albedo > Functions, property
+cmip6.land.albedo.snow_free_albedo.direct_diffuse, Land > Albedo > Snow Free Albedo > Direct Diffuse, property
+cmip6.land.albedo.snow_free_albedo.number_of_wavelength_bands, Land > Albedo > Snow Free Albedo > Number Of Wavelength Bands, property
+cmip6.land.albedo.snow_albedo.type, Land > Albedo > Snow Albedo > Type, property
+cmip6.land.albedo.snow_albedo.functions, Land > Albedo > Snow Albedo > Functions, property
+cmip6.land.albedo.method.phenology, Land > Albedo > Method > Phenology, property
+cmip6.land.albedo.method.leaf_area_index, Land > Albedo > Method > Leaf Area Index, property
+cmip6.land.albedo.method.biomass, Land > Albedo > Method > Biomass, property
+cmip6.land.albedo.method.biogeography, Land > Albedo > Method > Biogeography, property
+cmip6.land.albedo.method.stomatal_resistance, Land > Albedo > Method > Stomatal Resistance, property
 , , 

@@ -20,3 +20,8 @@ cmip6.land.snow, Land > Snow, process
 cmip6.land.vegetation, Land > Vegetation, process
 , , 
 cmip6.land.energy_balance, Land > Energy Balance, process
+, , 
+cmip6.land.albedo, Land > Albedo, process
+cmip6.land.albedo.snow_free_albedo, Land > Albedo > Snow Free Albedo, subprocess
+cmip6.land.albedo.snow_albedo, Land > Albedo > Snow Albedo, subprocess
+cmip6.land.albedo.method, Land > Albedo > Method, subprocess
