@@ -35,20 +35,20 @@ DESCRIPTION = 'Land surface soil'
 # PROCESS: top level properties
 # --------------------------------------------------------------------
 DETAILS['toplevel'] = {
-    'description': 'Key properties of the land surface vegatation',
+    'description': 'Key properties of the land surface vegetation',
     'properties': [
         ('tiling', 'str', '0.1',
-             'Describe the vegatation tiling, if any.'),
+             'Describe the vegetation tiling, if any.'),
         ('vegetation_representation', 'ENUM:vegetation_representation_types', '1.1',
              'Vegetation classification used'),
-        ('vegatation_types', 'ENUM:vegatation_types', '0.N',
-             'List of vegatation types in the classification, if any'),
+        ('vegetation_types', 'ENUM:vegetation_types', '0.N',
+             'List of vegetation types in the classification, if any'),
         ('biome_types', 'ENUM:biome_types', '0.N',
              'List of biome types in the classification, if any'),
-        ('vegatation_time_variation', 'ENUM:vegatation_time_variation', '1.1',
+        ('vegetation_time_variation', 'ENUM:vegetation_time_variation', '1.1',
              'How the vegetation fractions in each tile are varying with time'),
-        ('vegatation_map', 'str', '0.1',
-             'If vegatation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)'),
+        ('vegetation_map', 'str', '0.1',
+             'If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)'),
         ('interception', 'bool', '1.1',
              'Is vegetation interception of rainwater represented?'),
     ],

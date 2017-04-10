@@ -34,24 +34,6 @@ DESCRIPTION = 'Land surface carbon cycle'
 # --------------------------------------------------------------------
 # CARBON CYCLE: top level
 # --------------------------------------------------------------------
-DETAILS['vegetation'] = {
-    'description': 'TODO',
-    'properties' : [
-        ('number_of_carbon_pools', 'int', '1.1',
-             'Enter the number of carbon pools used'),
-        ('carbon_pools', 'str', '0.1',
-             'List the carbon pools used'),
-        ('forest_stand_dynamics', 'str', '0.1',
-             'Describe the treatment of forest stand dyanmics'),
-    ],
-    'detail_sets': [
-        'photosynthesis',
-        'autotrophic_respiration',
-        'allocation',
-        'phenology',
-        'mortality',
-    ]
-}
 
 # --------------------------------------------------------------------
 # CARBON CYCLE: process
