@@ -113,3 +113,23 @@ cmip6.land.carbon_cycle.permafrost_carbon.Emitted_greenhouse_gases, Land > Carbo
 cmip6.land.carbon_cycle.permafrost_carbon.decomposition, Land > Carbon Cycle > Permafrost Carbon > Decomposition, property
 cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties, Land > Carbon Cycle > Permafrost Carbon > Impact On Soil Properties, property
 , , 
+cmip6.land.river_routing.tiling, Land > River Routing > Tiling, property
+cmip6.land.river_routing.grid_inherited_from_land_surface, Land > River Routing > Grid Inherited From Land Surface, property
+cmip6.land.river_routing.grid_description, Land > River Routing > Grid Description, property
+cmip6.land.river_routing.number_of_reservoirs, Land > River Routing > Number Of Reservoirs, property
+cmip6.land.river_routing.prognostic_variables, Land > River Routing > Prognostic Variables, property
+cmip6.land.river_routing.water_re_evaporation, Land > River Routing > Water Re Evaporation, property
+cmip6.land.river_routing.coupled_to_atmosphere, Land > River Routing > Coupled To Atmosphere, property
+cmip6.land.river_routing.quantities_exchanged_with_atmosphere, Land > River Routing > Quantities Exchanged With Atmosphere, property
+cmip6.land.river_routing.basin_flow_direction_map, Land > River Routing > Basin Flow Direction Map, property
+cmip6.land.river_routing.oceanic_discharge.discharge_type, Land > River Routing > Oceanic Discharge > Discharge Type, property
+cmip6.land.river_routing.oceanic_discharge.quantities_transported, Land > River Routing > Oceanic Discharge > Quantities Transported, property
+, , 
+cmip6.land.lakes.coupling_with_rivers, Land > Lakes > Coupling With Rivers, property
+cmip6.land.lakes.quantities_exchanged_with_rivers, Land > Lakes > Quantities Exchanged With Rivers, property
+cmip6.land.lakes.method.ice_treatment, Land > Lakes > Method > Ice Treatment, property
+cmip6.land.lakes.method.albedo, Land > Lakes > Method > Albedo, property
+cmip6.land.lakes.method.dynamics, Land > Lakes > Method > Dynamics, property
+cmip6.land.lakes.method.dynamic_lake_extent, Land > Lakes > Method > Dynamic Lake Extent, property
+cmip6.land.lakes.method.endorheic_basins, Land > Lakes > Method > Endorheic Basins, property
+, , 

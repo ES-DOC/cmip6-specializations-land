@@ -1421,6 +1421,353 @@
                     ]
                 }
             ]
+        }, 
+        {
+            "label": "Nitrogen Cycle", 
+            "description": "Land surface nitrogen cycle", 
+            "id": "cmip6.land.nitrogen_cycle", 
+            "contact": "David Hassell"
+        }, 
+        {
+            "label": "River Routing", 
+            "description": "Land surface river routing", 
+            "id": "cmip6.land.river_routing", 
+            "contact": "David Hassell", 
+            "properties": [
+                {
+                    "label": "Tiling", 
+                    "description": "Describe the river routing, if any.", 
+                    "id": "cmip6.land.river_routing.tiling", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Grid Inherited From Land Surface", 
+                    "description": "Is the grid inherited from land surface?", 
+                    "id": "cmip6.land.river_routing.grid_inherited_from_land_surface", 
+                    "cardinality": "1.1", 
+                    "type": "bool", 
+                    "uiOrdinal": 2
+                }, 
+                {
+                    "label": "Grid Description", 
+                    "description": "General description of grid, if not inherited from land surface", 
+                    "id": "cmip6.land.river_routing.grid_description", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 3
+                }, 
+                {
+                    "label": "Number Of Reservoirs", 
+                    "description": "Enter the number of reservoirs", 
+                    "id": "cmip6.land.river_routing.number_of_reservoirs", 
+                    "cardinality": "1.1", 
+                    "type": "int", 
+                    "uiOrdinal": 4
+                }, 
+                {
+                    "label": "Prognostic Variables", 
+                    "description": "Specify the prognostic variables within the river routing scheme", 
+                    "id": "cmip6.land.river_routing.prognostic_variables", 
+                    "cardinality": "1.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Prognostic Variable Types", 
+                        "description": "Specify the prognostic variables within the river routing scheme", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "heat", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "water", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "tracers", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 5
+                }, 
+                {
+                    "label": "Water Re Evaporation", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.river_routing.water_re_evaporation", 
+                    "cardinality": "1.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Water Re Evaporation Types", 
+                        "description": "TODO", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "flood plains", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "irrigation", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 6
+                }, 
+                {
+                    "label": "Coupled To Atmosphere", 
+                    "description": "Is river routing coupled to the atmosphere model component?", 
+                    "id": "cmip6.land.river_routing.coupled_to_atmosphere", 
+                    "cardinality": "0.1", 
+                    "type": "bool", 
+                    "uiOrdinal": 7
+                }, 
+                {
+                    "label": "Quantities Exchanged With Atmosphere", 
+                    "description": "If couple to atmosphere, which quantities are exchanged between river routing and the atmosphere model components?", 
+                    "id": "cmip6.land.river_routing.quantities_exchanged_with_atmosphere", 
+                    "cardinality": "0.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Quantities Exchanged With Atmosphere Types", 
+                        "description": "Quantities that are exchanged between river routing and the atmosphere model components", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "heat", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "water", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "tracers", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 8
+                }, 
+                {
+                    "label": "Basin Flow Direction Map", 
+                    "description": "What type of basin flow direction map is being used?", 
+                    "id": "cmip6.land.river_routing.basin_flow_direction_map", 
+                    "cardinality": "1.1", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Basin Flow Direction Map Types", 
+                        "description": "What type of basin flow direction map is being used?", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "present day", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "adapted for other periods", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 9
+                }
+            ], 
+            "subProcesses": [
+                {
+                    "label": "Oceanic Discharge", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.river_routing.oceanic_discharge", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Discharge Type", 
+                            "description": "Specify how rivers are discharged to the ocean", 
+                            "id": "cmip6.land.river_routing.oceanic_discharge.discharge_type", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Discharge Types", 
+                                "description": "Specify how rivers are discharged to the ocean", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "direct (large rivers)", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diffuse", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Quantities Transported", 
+                            "description": "Quantities that are exchanged from river-routing to the ocean model component", 
+                            "id": "cmip6.land.river_routing.oceanic_discharge.quantities_transported", 
+                            "cardinality": "1.N", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Quantities Transported Types", 
+                                "description": "Quantities that are exchanged from river-routing to the ocean model component", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "heat", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "water", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "tracers", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 2
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "label": "Lakes", 
+            "description": "Land surface lakes", 
+            "id": "cmip6.land.lakes", 
+            "contact": "David Hassell", 
+            "properties": [
+                {
+                    "label": "Coupling With Rivers", 
+                    "description": "Are lakes coupled to the river routing model component?", 
+                    "id": "cmip6.land.lakes.coupling_with_rivers", 
+                    "cardinality": "1.1", 
+                    "type": "bool", 
+                    "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Quantities Exchanged With Rivers", 
+                    "description": "If coupling with rivers, which quantities are exchanged between the lakes and rivers", 
+                    "id": "cmip6.land.lakes.quantities_exchanged_with_rivers", 
+                    "cardinality": "0.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Quantities Exchanged With Rivers Types", 
+                        "description": "Quantities that are exchanged between the lakes and rivers", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "heat", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "water", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "tracers", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 2
+                }
+            ], 
+            "subProcesses": [
+                {
+                    "label": "Method", 
+                    "description": "TODO", 
+                    "id": "cmip6.land.lakes.method", 
+                    "contact": "David Hassell", 
+                    "properties": [
+                        {
+                            "label": "Ice Treatment", 
+                            "description": "Is lake ice included?", 
+                            "id": "cmip6.land.lakes.method.ice_treatment", 
+                            "cardinality": "1.1", 
+                            "type": "bool", 
+                            "uiOrdinal": 1
+                        }, 
+                        {
+                            "label": "Albedo", 
+                            "description": "Describe the treatment of lake albedo", 
+                            "id": "cmip6.land.lakes.method.albedo", 
+                            "cardinality": "1.1", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Lake Albedo Types", 
+                                "description": "Describe the treatment of lake albedo", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "prognostic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "diagnostic", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "Dynamics", 
+                            "description": "Which dynamics of lakes are treated? horizontal, vertical, etc.", 
+                            "id": "cmip6.land.lakes.method.dynamics", 
+                            "cardinality": "1.N", 
+                            "type": "enum", 
+                            "enum": {
+                                "label": "Lake Dynamics Types", 
+                                "description": "Which dynamics of lakes are treated?", 
+                                "isOpen": true, 
+                                "choices": [
+                                    {
+                                        "label": "No lake dynamics", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "vertical", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "horizontal", 
+                                        "description": null
+                                    }
+                                ]
+                            }, 
+                            "uiOrdinal": 3
+                        }, 
+                        {
+                            "label": "Dynamic Lake Extent", 
+                            "description": "Is a dynamic lake extent scheme included?", 
+                            "id": "cmip6.land.lakes.method.dynamic_lake_extent", 
+                            "cardinality": "1.1", 
+                            "type": "bool", 
+                            "uiOrdinal": 4
+                        }, 
+                        {
+                            "label": "Endorheic Basins", 
+                            "description": "Basins not flowing to ocean included?", 
+                            "id": "cmip6.land.lakes.method.endorheic_basins", 
+                            "cardinality": "1.1", 
+                            "type": "bool", 
+                            "uiOrdinal": 5
+                        }
+                    ]
+                }, 
+                {
+                    "label": "Welands", 
+                    "description": "Place-holder for wetlands description", 
+                    "id": "cmip6.land.lakes.welands", 
+                    "contact": "David Hassell"
+                }
+            ]
         }
     ], 
     "grid": {

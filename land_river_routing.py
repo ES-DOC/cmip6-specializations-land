@@ -45,9 +45,9 @@ DETAILS['toplevel'] = {
              'General description of grid, if not inherited from land surface'),
         ('number_of_reservoirs', 'int', '1.1',
              'Enter the number of reservoirs'),
-        ('prognostic_variables', 'ENUM:prognostic_Variable_types', '1.N',
+        ('prognostic_variables', 'ENUM:prognostic_variable_types', '1.N',
              'Specify the prognostic variables within the river routing scheme'),
-        ('water_re-evaporation', 'ENUM:water_re-evaporation_types', '1.N',
+        ('water_re_evaporation', 'ENUM:water_re_evaporation_types', '1.N',
              'TODO'),
         ('coupled_to_atmosphere', 'bool', '0.1',
              'Is river routing coupled to the atmosphere model component?'),
@@ -59,7 +59,7 @@ DETAILS['toplevel'] = {
 }
 
 # --------------------------------------------------------------------
-# CARBON CYCLE: process
+# RIVER ROUTING: process
 # --------------------------------------------------------------------
 DETAILS['oceanic_discharge'] = {
     'description': 'TODO',
@@ -72,26 +72,61 @@ DETAILS['oceanic_discharge'] = {
 }
 
 # --------------------------------------------------------------------
-# CARBON CYCLE: ENUMERATIONS
+# RIVER ROUTING: ENUMERATIONS
 # --------------------------------------------------------------------
-ENUMERATIONS['allocation_bin_types'] = {
-    'description': 'Specify the allocation of vegetation carbon bins',
+ENUMERATIONS['prognostic_variable_types'] = {
+    'description': 'Specify the prognostic variables within the river routing scheme',
     'is_open': True,
     'members': [
-        ('leaves + stems + roots', None),
-        ('leaves + stems + roots (leafy + woody)', None),
-        ('leaves + fine roots + coarse roots + stems', None),
-        ('whole plant (no distinction)', None),
+        ('heat', None),
+        ('water', None),
+        ('tracers', None),
         ]
     }
 
-ENUMERATIONS['allocation_fraction_types'] = {
-    'description': 'Describe how the fractions of allocation are calculated',
+ENUMERATIONS['water_re_evaporation_types'] = {
+    'description': 'TODO',
     'is_open': True,
     'members': [
-        ('fixed', None),
-        ('function of vegetation type', None),
-        ('function of plant allometry', None),
-        ('explicitly calculated', None),
+        ('flood plains', None),
+        ('irrigation', None),
+    ]
+}
+
+ENUMERATIONS['quantities_exchanged_with_atmosphere_types'] = {
+    'description': 'Quantities that are exchanged between river routing and the atmosphere model components',
+    'is_open': True,
+    'members': [
+        ('heat', None),
+        ('water', None),
+        ('tracers', None),
+    ]
+}
+
+ENUMERATIONS['basin_flow_direction_map_types'] = {
+    'description': 'What type of basin flow direction map is being used?',
+    'is_open': True,
+    'members': [
+        ('present day', None),
+        ('adapted for other periods', None),
+    ]
+}
+
+ENUMERATIONS['discharge_types'] = {
+    'description': 'Specify how rivers are discharged to the ocean',
+    'is_open': True,
+    'members': [
+        ('direct (large rivers)', None),
+        ('diffuse', None),
+    ]
+}
+
+ENUMERATIONS['quantities_transported_types'] = {
+    'description': 'Quantities that are exchanged from river-routing to the ocean model component',
+    'is_open': True,
+    'members': [
+        ('heat', None),
+        ('water', None),
+        ('tracers', None),
     ]
 }
