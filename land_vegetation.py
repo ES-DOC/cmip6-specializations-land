@@ -129,3 +129,53 @@ ENUMERATIONS['stomatal_resistance_methods'] = {
         ('O3', None),
         ]
     }
+
+ENUMERATIONS['biome_types'] = {
+    'description': 'Biome type in the classification',
+    'is_open': True,
+    'members': [
+        ('evergreen needleleaf forest', None),
+        ('evergreen broadleaf forest', None),
+        ('deciduous needleleaf forest', None),
+        ('deciduous broadleaf forest', None),
+        ('mixed forest', None),
+        ('woodland', None),
+        ('wooded grassland', None),
+        ('closed shrubland', None),
+        ('opne shrubland', None),
+        ('grassland', None),
+        ('cropland', None),
+        ('wetlands', None),
+        ]
+    }
+
+ENUMERATIONS['vegetation_types'] = {
+    'description': 'Vegetation type in the classification',
+    'is_open': True,
+    'members': [
+        ('broadleaf tree', None),
+        ('needleleaf tree', None),
+        ('C3 grass', None),
+        ('C4 grass', None),
+        ('vegetated', None),
+        ]
+    }
+
+ENUMERATIONS['vegetation_representation_types'] = {
+    'description': 'Vegetation classification used',
+    'is_open': True,
+    'members': [
+        ('vegatation types', None),
+        ('biome types', None),
+        ]
+    }
+
+ENUMERATIONS['vegetation_time_variation'] = {
+    'description': 'How the vegetation fraction in each tile are varying with time',
+    'is_open': True,
+    'members': [
+        ('fixed (not varying)', None),
+        ('prescribed (varying from files)', None),
+        ('dynamical (varying from simulation)', None),
+    ]
+}

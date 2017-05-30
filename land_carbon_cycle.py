@@ -34,13 +34,20 @@ DESCRIPTION = 'Land surface carbon cycle'
 # --------------------------------------------------------------------
 # CARBON CYCLE: top level
 # --------------------------------------------------------------------
+DETAILS['toplevel'] = {
+    'description': 'Properties of land surface carbon cycle',
+    'properties': [
+        ('tiling', 'str', '0.1',
+             'Describe the carbon cycle tiling, if any.'),
+    ]
+}
 
 # --------------------------------------------------------------------
 # CARBON CYCLE: process
 # --------------------------------------------------------------------
 DETAILS['vegetation'] = {
     'description': 'TODO',
-    'properties' : [
+    'properties' : [ 
         ('number_of_carbon_pools', 'int', '1.1',
              'Enter the number of carbon pools used'),
         ('carbon_pools', 'str', '0.1',

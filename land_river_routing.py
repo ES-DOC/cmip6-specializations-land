@@ -55,6 +55,8 @@ DETAILS['toplevel'] = {
              'If couple to atmosphere, which quantities are exchanged between river routing and the atmosphere model components?'),
         ('basin_flow_direction_map', 'ENUM:basin_flow_direction_map_types', '1.1',
              'What type of basin flow direction map is being used?'),
+        ('flooding', 'str', '0.1',
+             'Describe the representation of flooding, if any')
     ],
 }
 

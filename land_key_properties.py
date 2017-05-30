@@ -37,8 +37,8 @@ DESCRIPTION = 'Land surface key properties'
 DETAILS['toplevel'] = {
     'description': 'General key properties in land surface',
     'properties': [
-        ('basic_approximations', 'str', '1.1',
-            'Decription of the basic approximations made in the LandSurface model'),
+        ('description', 'str', '1.1',
+            'General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)'),
         ('land_atmosphere_flux_exchanges', 'ENUM:land_atmosphere_flux_exchanges_types', '0.N',
             'TODO.'),
         ('atmospheric_coupling', 'ENUM:atmospheric_coupling_types', '1.1',
@@ -72,7 +72,7 @@ DETAILS['timestepping_framework'] = {
     'description': 'TODO',
     'properties' : [
         ('timestep_dependent_on_atmosphere', 'bool', '1.1',
-            'Is a time step dependent on the atmosphere coupling?'),
+            'Is a time step dependent on the frequency of atmosphere coupling?'),
         ('timestepping_method', 'str', '1.1',
             'Describe time stepping method and associated time step(s)'),
         ]
@@ -141,7 +141,6 @@ ENUMERATIONS['prognostic_vars_types'] = {
         ('snow density', None),
         ('snow water content', None),
         ('snow layer thickness', None),
-        ('snow ', None),
         ('canopy water content', None),
         ('canopy heat content', None),
         ('canopy snow content', None),
@@ -149,7 +148,8 @@ ENUMERATIONS['prognostic_vars_types'] = {
         ('canopy height', None),
         ('surface skin temperature', None),
         ('river water discharge', None),
-        ('carbon', None),
+        ('soil carbon', None),
+        ('vegetation carbon', None),
         ('nitrogen', None),
         ]
     }

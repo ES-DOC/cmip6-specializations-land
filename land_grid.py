@@ -40,7 +40,7 @@ DETAILS['horizontal'] = {
         ('description', 'str', '1.1',
              'Describe the general structure of the horizontal grid (not including any tiling)'),
         ('matches_atmosphere_grid', 'bool', '1.1',
-             'Does the horizontal grid match the atmpsphere?'),
+             'Does the horizontal grid match the atmosphere?'),
         ]
     }
 
