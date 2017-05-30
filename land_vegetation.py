@@ -29,7 +29,7 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
-DESCRIPTION = 'Land surface soil'
+DESCRIPTION = 'Land surface vegetation'
 
 # --------------------------------------------------------------------
 # PROCESS: top level properties
@@ -37,6 +37,10 @@ DESCRIPTION = 'Land surface soil'
 DETAILS['toplevel'] = {
     'description': 'Key properties of the land surface vegetation',
     'properties': [
+        ('description', 'str', '1.1',
+             'General description of vegatation scheme'),
+        ('dynamic_vegetation', 'bool', '1.1',
+             'Is there dynamic evolution of vegation?'),
         ('tiling', 'str', '0.1',
              'Describe the vegetation tiling, if any.'),
         ('vegetation_representation', 'ENUM:vegetation_representation_types', '1.1',
@@ -51,36 +55,6 @@ DETAILS['toplevel'] = {
              'If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)'),
         ('interception', 'bool', '1.1',
              'Is vegetation interception of rainwater represented?'),
-    ],
-}
-
-# --------------------------------------------------------------------
-# SUB-PROCESS: Soil map
-# --------------------------------------------------------------------
-DETAILS['toplevel'] = {
-    'description': 'TODO',
-    'properties': [
-        ('description', 'str', '1.1',
-             'General description of soil map'),
-        ('structure', 'str', '1.1',
-             'Describe the soil map structure'),
-        ('texture', 'str', '1.1',
-             'Describe the soil map texture'),
-        ('albedo', 'str', '1.1',
-             'Describe the soil map albedo'),
-        ('water_table', 'str', '1.1',
-             'Describe the soil map water_table'),
-        ('soil_depth', 'str', '1.1',
-             'Describe the soil map total soil depth'),
-    ],
-    'detail_sets': [
-        'methods',
-    ],
-}
-
-DETAILS['toplevel:methods'] = {
-    'description': 'TODO',
-    'properties': [
         ('phenology', 'ENUM:phenology_methods', '1.1',
              'Treatment of vegetation phenology'),
         ('phenology_description', 'str', '0.1',

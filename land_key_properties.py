@@ -49,8 +49,10 @@ DETAILS['toplevel'] = {
              'List of prognostic variables in the land surface component.'),
         ('tiling', 'bool', '1.1',
              'Is tiling used in the land surface?'),
-        ]
-    }
+        ('tiling', 'str', '1.1',
+             'Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness'),
+    ]
+}
 
 DETAILS['conservation_properties'] = {
     'description': 'TODO',
@@ -120,7 +122,8 @@ ENUMERATIONS['land_cover_types'] = {
         ('bare soil', None),
         ('urban', None),
         ('lake', None),
-        ('ice', None), # Do we need land-ice and lake ice?
+        ('land ice', None),
+        ('lake ice', None),
         ('vegetated', None),
         ]
     }

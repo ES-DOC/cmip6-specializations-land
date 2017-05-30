@@ -48,9 +48,7 @@ DETAILS['vertical'] = {
     'description': 'The vertical grid in the soil',
     'properties': [
         ('description', 'str', '1.1',
-             'Describe the general structure of the  vertical grid in the soil (not including any tiling)'),
-        ('number_of_levels', 'int', '1.1',
-             'The total number of vertical levels in the soil'),
+             'Describe the general structure of the  vertical grid in the soil (not including any tiling)'),       
         ]
     }
 
