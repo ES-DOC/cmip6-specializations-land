@@ -39,6 +39,8 @@ DETAILS['toplevel'] = {
     'properties': [
         ('tiling', 'str', '0.1',
              'Describe the carbon cycle tiling, if any.'),
+        ('anthropogenic_carbon', 'ENUM:anthropogenic_carbon_methods', '0.N',
+             'Describe the treament of the anthropogenic carbon pool'),
     ]
 }
 
@@ -75,8 +77,6 @@ DETAILS['vegetation:photosynthesis'] = {
 DETAILS['vegetation:autotrophic_respiration'] = {
     'description': 'TODO',
     'properties' : [
-        ('parametrised', 'bool', '1.1',
-             'Is the method parametrised?'),            
         ('maintainance_respiration', 'str', '0.1',
             'Describe the general method used for maintainence respiration'),
         ('growth_respiration', 'str', '0.1',
@@ -90,7 +90,7 @@ DETAILS['vegetation:allocation'] = {
         ('method', 'str', '1.1',
              'Describe the general principle behind the allocation scheme'),
         ('allocation_bins', 'ENUM:allocation_bin_types', '1.1',
-            'Specify the allocation of vegetation carbon bins'),
+            'Specify distinct carbon bins used in allocation'),
         ('allocation_fractions', 'ENUM:allocation_fraction_types', '1.1',
             'Describe how the fractions of allocation are calculated'),
         ]
@@ -167,6 +167,16 @@ DETAILS['permafrost_carbon'] = {
 # --------------------------------------------------------------------
 # CARBON CYCLE: ENUMERATIONS
 # --------------------------------------------------------------------
+ENUMERATIONS['anthropogenic_carbon_methods'] = {
+    'description': 'Treatment of the anthropogenic carbn pool',
+    'is_open': True,
+    'members': [
+        ('grand slam protocol', None),
+        ('residence time', None),
+        ('decay time', None),
+    ]
+}
+
 ENUMERATIONS['allocation_bin_types'] = {
     'description': 'Specify the allocation of vegetation carbon bins',
     'is_open': True,

@@ -3,12 +3,13 @@ cmip6.land.grid.horizontal.description, Land > Grid > Horizontal > Description, 
 cmip6.land.grid.horizontal.matches_atmosphere_grid, Land > Grid > Horizontal > Matches Atmosphere Grid, property
 cmip6.land.grid.vertical.description, Land > Grid > Vertical > Description, property
 , , 
+cmip6.land.key_properties.model_name, Land > Key Properties > Model Name, property
 cmip6.land.key_properties.description, Land > Key Properties > Description, property
 cmip6.land.key_properties.land_atmosphere_flux_exchanges, Land > Key Properties > Land Atmosphere Flux Exchanges, property
 cmip6.land.key_properties.atmospheric_coupling, Land > Key Properties > Atmospheric Coupling, property
 cmip6.land.key_properties.land_cover, Land > Key Properties > Land Cover, property
+cmip6.land.key_properties.land_cover_change, Land > Key Properties > Land Cover Change, property
 cmip6.land.key_properties.prognostic_variables, Land > Key Properties > Prognostic Variables, property
-cmip6.land.key_properties.tiling, Land > Key Properties > Tiling, property
 cmip6.land.key_properties.tiling, Land > Key Properties > Tiling, property
 cmip6.land.key_properties.conservation_properties.energy, Land > Key Properties > Conservation Properties > Energy, property
 cmip6.land.key_properties.conservation_properties.water, Land > Key Properties > Conservation Properties > Water, property
@@ -82,16 +83,16 @@ cmip6.land.vegetation.stomatal_resistance, Land > Vegetation > Stomatal Resistan
 cmip6.land.vegetation.stomatal_resistance_description, Land > Vegetation > Stomatal Resistance Description, property
 , , 
 cmip6.land.energy_balance.tiling, Land > Energy Balance > Tiling, property
-cmip6.land.energy_balance.number_of_surface_temperature, Land > Energy Balance > Number Of Surface Temperature, property
-cmip6.land.energy_balance.evaporation_formulation, Land > Energy Balance > Evaporation Formulation, property
+cmip6.land.energy_balance.number_of_surface_temperatures, Land > Energy Balance > Number Of Surface Temperatures, property
+cmip6.land.energy_balance.evaporation, Land > Energy Balance > Evaporation, property
 cmip6.land.energy_balance.processes, Land > Energy Balance > Processes, property
 , , 
 cmip6.land.carbon_cycle.tiling, Land > Carbon Cycle > Tiling, property
+cmip6.land.carbon_cycle.anthropogenic_carbon, Land > Carbon Cycle > Anthropogenic Carbon, property
 cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools, Land > Carbon Cycle > Vegetation > Number Of Carbon Pools, property
 cmip6.land.carbon_cycle.vegetation.carbon_pools, Land > Carbon Cycle > Vegetation > Carbon Pools, property
 cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics, Land > Carbon Cycle > Vegetation > Forest Stand Dynamics, property
 cmip6.land.carbon_cycle.vegetation.photosynthesis.method, Land > Carbon Cycle > Vegetation > Photosynthesis > Method, property
-cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.parametrised, Land > Carbon Cycle > Vegetation > Autotrophic Respiration > Parametrised, property
 cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration, Land > Carbon Cycle > Vegetation > Autotrophic Respiration > Maintainance Respiration, property
 cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration, Land > Carbon Cycle > Vegetation > Autotrophic Respiration > Growth Respiration, property
 cmip6.land.carbon_cycle.vegetation.allocation.method, Land > Carbon Cycle > Vegetation > Allocation > Method, property
@@ -121,6 +122,7 @@ cmip6.land.river_routing.number_of_reservoirs, Land > River Routing > Number Of 
 cmip6.land.river_routing.prognostic_variables, Land > River Routing > Prognostic Variables, property
 cmip6.land.river_routing.water_re_evaporation, Land > River Routing > Water Re Evaporation, property
 cmip6.land.river_routing.coupled_to_atmosphere, Land > River Routing > Coupled To Atmosphere, property
+cmip6.land.river_routing.coupled_to_land, Land > River Routing > Coupled To Land, property
 cmip6.land.river_routing.quantities_exchanged_with_atmosphere, Land > River Routing > Quantities Exchanged With Atmosphere, property
 cmip6.land.river_routing.basin_flow_direction_map, Land > River Routing > Basin Flow Direction Map, property
 cmip6.land.river_routing.flooding, Land > River Routing > Flooding, property

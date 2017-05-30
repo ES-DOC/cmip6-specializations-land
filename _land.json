@@ -36,7 +36,7 @@
                         }, 
                         {
                             "label": "Structure", 
-                            "description": "Describe the soil map structure", 
+                            "description": "Describe the soil structure map", 
                             "id": "cmip6.land.soil.soil_map.structure", 
                             "cardinality": "1.1", 
                             "type": "str", 
@@ -44,7 +44,7 @@
                         }, 
                         {
                             "label": "Texture", 
-                            "description": "Describe the soil map texture", 
+                            "description": "Describe the soil texture map", 
                             "id": "cmip6.land.soil.soil_map.texture", 
                             "cardinality": "1.1", 
                             "type": "str", 
@@ -52,7 +52,7 @@
                         }, 
                         {
                             "label": "Organic Matter", 
-                            "description": "Describe the soil map organic matter", 
+                            "description": "Describe the soil organic matter map", 
                             "id": "cmip6.land.soil.soil_map.organic_matter", 
                             "cardinality": "1.1", 
                             "type": "str", 
@@ -60,7 +60,7 @@
                         }, 
                         {
                             "label": "Albedo", 
-                            "description": "Describe the soil map albedo", 
+                            "description": "Describe the soil albedo map", 
                             "id": "cmip6.land.soil.soil_map.albedo", 
                             "cardinality": "1.1", 
                             "type": "str", 
@@ -68,7 +68,7 @@
                         }, 
                         {
                             "label": "Water Table", 
-                            "description": "Describe the soil map water_table", 
+                            "description": "Describe the soil water_table map", 
                             "id": "cmip6.land.soil.soil_map.water_table", 
                             "cardinality": "1.1", 
                             "type": "str", 
@@ -76,7 +76,7 @@
                         }, 
                         {
                             "label": "Soil Depth", 
-                            "description": "Describe the soil map total soil depth", 
+                            "description": "Describe the soil total soil depth map", 
                             "id": "cmip6.land.soil.soil_map.soil_depth", 
                             "cardinality": "1.1", 
                             "type": "str", 
@@ -969,13 +969,13 @@
                 }, 
                 {
                     "label": "Stomatal Resistance", 
-                    "description": "Specify the dependancies on vegetation stomatal resistance", 
+                    "description": "Specify what the vegetation stomatal resistance depends on", 
                     "id": "cmip6.land.vegetation.stomatal_resistance", 
                     "cardinality": "1.N", 
                     "type": "enum", 
                     "enum": {
                         "label": "Stomatal Resistance Methods", 
-                        "description": "Dependancies on vegetation stomatal resistance", 
+                        "description": "Dependancies of vegetation stomatal resistance", 
                         "isOpen": true, 
                         "choices": [
                             {
@@ -1027,18 +1027,18 @@
                     "uiOrdinal": 1
                 }, 
                 {
-                    "label": "Number Of Surface Temperature", 
-                    "description": "The numnber of surface temperatures used", 
-                    "id": "cmip6.land.energy_balance.number_of_surface_temperature", 
+                    "label": "Number Of Surface Temperatures", 
+                    "description": "The maximum number of distinct surface temperatures in a grid cell  (for example, each subgrid tile may have its own temperature)", 
+                    "id": "cmip6.land.energy_balance.number_of_surface_temperatures", 
                     "cardinality": "1.1", 
                     "type": "int", 
                     "uiOrdinal": 2
                 }, 
                 {
-                    "label": "Evaporation Formulation", 
-                    "description": "Specify the formulation method for land surface evaporation", 
-                    "id": "cmip6.land.energy_balance.evaporation_formulation", 
-                    "cardinality": "1.1", 
+                    "label": "Evaporation", 
+                    "description": "Specify the formulation method for land surface evaporation, from soil and vegetation", 
+                    "id": "cmip6.land.energy_balance.evaporation", 
+                    "cardinality": "1.N", 
                     "type": "enum", 
                     "enum": {
                         "label": "Evaporation Formulation Types", 
@@ -1099,6 +1099,33 @@
                     "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Anthropogenic Carbon", 
+                    "description": "Describe the treament of the anthropogenic carbon pool", 
+                    "id": "cmip6.land.carbon_cycle.anthropogenic_carbon", 
+                    "cardinality": "0.N", 
+                    "type": "enum", 
+                    "enum": {
+                        "label": "Anthropogenic Carbon Methods", 
+                        "description": "Treatment of the anthropogenic carbn pool", 
+                        "isOpen": true, 
+                        "choices": [
+                            {
+                                "label": "grand slam protocol", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "residence time", 
+                                "description": null
+                            }, 
+                            {
+                                "label": "decay time", 
+                                "description": null
+                            }
+                        ]
+                    }, 
+                    "uiOrdinal": 2
                 }
             ], 
             "subProcesses": [
@@ -1155,20 +1182,12 @@
                             "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration", 
                             "properties": [
                                 {
-                                    "label": "Parametrised", 
-                                    "description": "Is the method parametrised?", 
-                                    "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.parametrised", 
-                                    "cardinality": "1.1", 
-                                    "type": "bool", 
-                                    "uiOrdinal": 1
-                                }, 
-                                {
                                     "label": "Maintainance Respiration", 
                                     "description": "Describe the general method used for maintainence respiration", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration", 
                                     "cardinality": "0.1", 
                                     "type": "str", 
-                                    "uiOrdinal": 2
+                                    "uiOrdinal": 1
                                 }, 
                                 {
                                     "label": "Growth Respiration", 
@@ -1176,7 +1195,7 @@
                                     "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration", 
                                     "cardinality": "0.1", 
                                     "type": "str", 
-                                    "uiOrdinal": 3
+                                    "uiOrdinal": 2
                                 }
                             ]
                         }, 
@@ -1195,7 +1214,7 @@
                                 }, 
                                 {
                                     "label": "Allocation Bins", 
-                                    "description": "Specify the allocation of vegetation carbon bins", 
+                                    "description": "Specify distinct carbon bins used in allocation", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins", 
                                     "cardinality": "1.1", 
                                     "type": "enum", 
@@ -1524,6 +1543,14 @@
                     "uiOrdinal": 7
                 }, 
                 {
+                    "label": "Coupled To Land", 
+                    "description": "Describe the coupling between land and rivers", 
+                    "id": "cmip6.land.river_routing.coupled_to_land", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 8
+                }, 
+                {
                     "label": "Quantities Exchanged With Atmosphere", 
                     "description": "If couple to atmosphere, which quantities are exchanged between river routing and the atmosphere model components?", 
                     "id": "cmip6.land.river_routing.quantities_exchanged_with_atmosphere", 
@@ -1548,7 +1575,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 8
+                    "uiOrdinal": 9
                 }, 
                 {
                     "label": "Basin Flow Direction Map", 
@@ -1571,7 +1598,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 9
+                    "uiOrdinal": 10
                 }, 
                 {
                     "label": "Flooding", 
@@ -1579,7 +1606,7 @@
                     "id": "cmip6.land.river_routing.flooding", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 10
+                    "uiOrdinal": 11
                 }
             ], 
             "subProcesses": [
@@ -1832,12 +1859,20 @@
         "contact": "David Hassell", 
         "properties": [
             {
+                "label": "Model Name", 
+                "description": "Name of land surface model code (e.g. MOSES2.2)", 
+                "id": "cmip6.land.key_properties.model_name", 
+                "cardinality": "1.1", 
+                "type": "str", 
+                "uiOrdinal": 1
+            }, 
+            {
                 "label": "Description", 
                 "description": "General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)", 
                 "id": "cmip6.land.key_properties.description", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 1
+                "uiOrdinal": 2
             }, 
             {
                 "label": "Land Atmosphere Flux Exchanges", 
@@ -1872,7 +1907,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 2
+                "uiOrdinal": 3
             }, 
             {
                 "label": "Atmospheric Coupling", 
@@ -1899,7 +1934,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 3
+                "uiOrdinal": 4
             }, 
             {
                 "label": "Land Cover", 
@@ -1938,7 +1973,15 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 4
+                "uiOrdinal": 5
+            }, 
+            {
+                "label": "Land Cover Change", 
+                "description": "Describe how land cover change is managed (e.g. the use of net or gross transitions)", 
+                "id": "cmip6.land.key_properties.land_cover_change", 
+                "cardinality": "0.1", 
+                "type": "str", 
+                "uiOrdinal": 6
             }, 
             {
                 "label": "Prognostic Variables", 
@@ -2029,15 +2072,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 5
-            }, 
-            {
-                "label": "Tiling", 
-                "description": "Is tiling used in the land surface?", 
-                "id": "cmip6.land.key_properties.tiling", 
-                "cardinality": "1.1", 
-                "type": "bool", 
-                "uiOrdinal": 6
+                "uiOrdinal": 7
             }, 
             {
                 "label": "Tiling", 
@@ -2045,7 +2080,7 @@
                 "id": "cmip6.land.key_properties.tiling", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 7
+                "uiOrdinal": 8
             }
         ], 
         "subProcesses": [

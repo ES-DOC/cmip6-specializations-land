@@ -37,6 +37,8 @@ DESCRIPTION = 'Land surface key properties'
 DETAILS['toplevel'] = {
     'description': 'General key properties in land surface',
     'properties': [
+        ('model_name', 'str', '1.1',
+             'Name of land surface model code (e.g. MOSES2.2)'),
         ('description', 'str', '1.1',
             'General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)'),
         ('land_atmosphere_flux_exchanges', 'ENUM:land_atmosphere_flux_exchanges_types', '0.N',
@@ -45,10 +47,10 @@ DETAILS['toplevel'] = {
             'Specify the treatment of land surface coupling with the Atmosphere model component',),
         ('land_cover', 'ENUM:land_cover_types', '1.N',
             'Types of land cover defined in the land surface model'),
+        ('land_cover_change', 'str', '0.1',
+             'Describe how land cover change is managed (e.g. the use of net or gross transitions)'),
         ('prognostic_variables', 'ENUM:prognostic_vars_types', '1.N',
              'List of prognostic variables in the land surface component.'),
-        ('tiling', 'bool', '1.1',
-             'Is tiling used in the land surface?'),
         ('tiling', 'str', '1.1',
              'Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness'),
     ]

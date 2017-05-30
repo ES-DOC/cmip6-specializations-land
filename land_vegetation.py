@@ -72,7 +72,7 @@ DETAILS['toplevel'] = {
         ('biogeography_description', 'str', '0.1',
              'General description of the treatment of vegetation biogeography'),
         ('stomatal_resistance', 'ENUM:stomatal_resistance_methods', '1.N',
-             'Specify the dependancies on vegetation stomatal resistance'),
+             'Specify what the vegetation stomatal resistance depends on'),
         ('stomatal_resistance_description', 'str', '0.1',
              'General description of the treatment of vegetation stomatal resistance'),
     ],
@@ -119,7 +119,7 @@ ENUMERATIONS['biogeography_methods'] = {
     }
 
 ENUMERATIONS['stomatal_resistance_methods'] = {
-    'description': 'Dependancies on vegetation stomatal resistance',
+    'description': 'Dependancies of vegetation stomatal resistance',
     'is_open': True,
     'members': [
         ('light', None),
