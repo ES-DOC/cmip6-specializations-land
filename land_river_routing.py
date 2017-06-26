@@ -43,7 +43,7 @@ DETAILS['toplevel'] = {
              'Time step of river routing scheme in seconds'),        
         ('grid_inherited_from_land_surface', 'bool', '1.1',
              'Is the grid inherited from land surface?'),
-        ('grid_description', 'str', '1.1',
+        ('grid_description', 'str', '0.1',
              'General description of grid, if not inherited from land surface'),
         ('number_of_reservoirs', 'int', '1.1',
              'Enter the number of reservoirs'),

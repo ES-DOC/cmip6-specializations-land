@@ -38,7 +38,7 @@ DETAILS['toplevel'] = {
     'description': 'TODO',
     'properties': [
          ('heat_water_coupling', 'str', '1.1',
-             'Ddescribe the coupling between heat and water in the soil'),
+             'Describe the coupling between heat and water in the soil'),
          ('number_of_soil layers', 'int', '1.1',
              'The number of soil layers'),
          ('prognostic_variables', 'str', '1.1',

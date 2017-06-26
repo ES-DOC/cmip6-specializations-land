@@ -8,33 +8,25 @@
     ],
     "CONTACT": "David Hassell",
     "CONTRIBUTORS": [
-        "Rich Ellis (CEH)",
-	"Phillipe Peylin (IPSL)",
     ],
     "PROPERTIES": {
         "priority1": [
             "cmip6.land.key_properties.toplevel.model_name",
             "cmip6.land.key_properties.toplevel.land_atmosphere_flux_exchanges",
             "cmip6.land.key_properties.tiling",
+            "cmip6.land.key_properties.atmospheric_coupling_treatment",
             "cmip6.land.vegetation.toplevel.vegetation_time_variation",
-            "cmip6.ocean.key_properties.resolution.canonical_horizontal_resolution",
-            "cmip6.ocean.key_properties.resolution.number_of_vertical_levels",
-            "cmip6.ocean.grid.discretisation.horizontal.type",
-            "cmip6.ocean.grid.discretisation.vertical.coordinates",
-            "cmip6.ocean.timestepping_framework.timestepping_attributes.time_step",
-            "cmip6.ocean.lateral_physics.scheme",
-            "cmip6.ocean.lateral_physics.momentum.operator.direction",
-            "cmip6.ocean.lateral_physics.tracers.operator.direction",
-            "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type",
-            "cmip6.ocean.vertical_physics.interior_mixing.tracers.type"
+            "cmip6.land.vegetation.toplevel.dynamic_vegetation",
+            "cmip6.land.soil.toplevel.number_of_soil_layers",
+            "cmip6.land.soil.soil_map.description",
+            "cmip6.land.snow.toplevel.number_of_snow_layers",
+            "cmip6.land.snow.snow_albedo.type",
+            "cmip6.land.carbon_cycle.toplevel.prognostic_variables",
+            "cmip6.land.nitrogen_cycle.toplevel.prognostic_variables",
+            "cmip6.land.river_routing.toplevel.prognostic_variables",
+            "cmip6.lakes.method.dynamics",
         ],
         "priority2": [
-            "cmip6.ocean.advection.lateral_tracers.type",
-            "cmip6.ocean.timestepping_framework.timestepping_attributes.diurnal_cycle",
-            "cmip6.ocean.uplow_boundaries.free_surface.scheme",
-            "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl",
-            "cmip6.ocean.boundary_forcing.momentum_flux_correction",
-            "cmip6.ocean.boundary_forcing.tracers_flux_correction"
         ]
     },
     "QC_STATUS": "draft"

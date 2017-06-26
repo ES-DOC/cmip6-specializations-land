@@ -12,7 +12,7 @@
             "properties": [
                 {
                     "label": "Heat Water Coupling", 
-                    "description": "Ddescribe the coupling between heat and water in the soil", 
+                    "description": "Describe the coupling between heat and water in the soil", 
                     "id": "cmip6.land.soil.heat_water_coupling", 
                     "cardinality": "1.1", 
                     "type": "str", 
@@ -1615,7 +1615,7 @@
                     "label": "Grid Description", 
                     "description": "General description of grid, if not inherited from land surface", 
                     "id": "cmip6.land.river_routing.grid_description", 
-                    "cardinality": "1.1", 
+                    "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 4
                 }, 
