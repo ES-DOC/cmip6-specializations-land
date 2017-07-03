@@ -24,7 +24,7 @@
             "cmip6.land.carbon_cycle.toplevel.prognostic_variables",
             "cmip6.land.nitrogen_cycle.toplevel.prognostic_variables",
             "cmip6.land.river_routing.toplevel.prognostic_variables",
-            "cmip6.lakes.method.dynamics",
+            "cmip6.land.lakes.method.dynamics",
         ],
         "priority2": [
         ]
