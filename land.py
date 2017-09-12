@@ -52,14 +52,14 @@ CMIP5_MAPPINGS_SYNCED_AT = "N/A"
 DESCRIPTION = 'Land Surface Realm'
 
 # --------------------------------------------------------------------
-# GRID: The grid used to layout the variables
-# --------------------------------------------------------------------
-GRID = 'land_grid'
-
-# --------------------------------------------------------------------
 # KEY PROPERTIES: Key properties for the realm which differ from model defaults (grid, timestep etc)
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'land_key_properties'
+
+# --------------------------------------------------------------------
+# GRID: The grid used to layout the variables
+# --------------------------------------------------------------------
+GRID = 'land_grid'
 
 # --------------------------------------------------------------------
 # PROCESSES: Processes simulated within the realm
