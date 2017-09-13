@@ -4,7 +4,6 @@
     ],
     "CHANGE_HISTORY": [
         ["0.1.0", "2017-06-23", "David Hassell", "Initialised"]
-
     ],
     "CONTACT": "David Hassell",
     "CONTRIBUTORS": [
@@ -15,16 +14,16 @@
         ["cmip6.land.key_properties.toplevel.land_atmosphere_flux_exchanges", 1],
         ["cmip6.land.key_properties.tiling", 1],
         ["cmip6.land.key_properties.atmospheric_coupling_treatment", 1],
-        ["cmip6.land.vegetation.toplevel.vegetation_time_variation", 1],
-        ["cmip6.land.vegetation.toplevel.dynamic_vegetation", 1],
-        ["cmip6.land.soil.toplevel.number_of_soil_layers", 1],
+        ["cmip6.land.vegetation.vegetation_time_variation", 1],
+        ["cmip6.land.vegetation.dynamic_vegetation", 1],
+        ["cmip6.land.soil.number_of_soil layers", 1],
         ["cmip6.land.soil.soil_map.description", 1],
-        ["cmip6.land.snow.toplevel.number_of_snow_layers", 1],
+        ["cmip6.land.snow.number_of_snow_layers", 1],
         ["cmip6.land.snow.snow_albedo.type", 1],
-        ["cmip6.land.carbon_cycle.toplevel.prognostic_variables", 1],
-        ["cmip6.land.nitrogen_cycle.toplevel.prognostic_variables", 1],
-        ["cmip6.land.river_routing.toplevel.prognostic_variables", 1],
-        ["cmip6.land.lakes.method.dynamics", 1],
+        ["cmip6.land.carbon_cycle.prognostic_variables", 1],
+        ["cmip6.land.nitrogen_cycle.prognostic_variables", 1],
+        ["cmip6.land.river_routing.prognostic_variables", 1],
+        ["cmip6.land.lakes.method.dynamics", 1]
     ],
     "QC_STATUS": "draft"
 }
