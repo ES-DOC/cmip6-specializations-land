@@ -1,6 +1,12 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.land.key_properties.model_overview, Land > Key Properties > Model Overview, property
-cmip6.land.key_properties.model_name, Land > Key Properties > Model Name, property
+cmip6.land.grid.overview, Land > Grid > Overview, property
+cmip6.land.grid.horizontal.description, Land > Grid > Horizontal > Description, property
+cmip6.land.grid.horizontal.matches_atmosphere_grid, Land > Grid > Horizontal > Matches Atmosphere Grid, property
+cmip6.land.grid.vertical.description, Land > Grid > Vertical > Description, property
+cmip6.land.grid.vertical.total_depth, Land > Grid > Vertical > Total Depth, property
+, , 
+cmip6.land.key_properties.name, Land > Key Properties > Name, property
+cmip6.land.key_properties.overview, Land > Key Properties > Overview, property
 cmip6.land.key_properties.description, Land > Key Properties > Description, property
 cmip6.land.key_properties.land_atmosphere_flux_exchanges, Land > Key Properties > Land Atmosphere Flux Exchanges, property
 cmip6.land.key_properties.atmospheric_coupling_treatment, Land > Key Properties > Atmospheric Coupling Treatment, property
@@ -17,12 +23,7 @@ cmip6.land.key_properties.software_properties.repository, Land > Key Properties 
 cmip6.land.key_properties.software_properties.code_version, Land > Key Properties > Software Properties > Code Version, property
 cmip6.land.key_properties.software_properties.code_languages, Land > Key Properties > Software Properties > Code Languages, property
 , , 
-cmip6.land.grid.overview, Land > Grid > Overview, property
-cmip6.land.grid.horizontal.description, Land > Grid > Horizontal > Description, property
-cmip6.land.grid.horizontal.matches_atmosphere_grid, Land > Grid > Horizontal > Matches Atmosphere Grid, property
-cmip6.land.grid.vertical.description, Land > Grid > Vertical > Description, property
-cmip6.land.grid.vertical.total_depth, Land > Grid > Vertical > Total Depth, property
-, , 
+cmip6.land.soil.name, Land > Soil > Name, property
 cmip6.land.soil.overview, Land > Soil > Overview, property
 cmip6.land.soil.heat_water_coupling, Land > Soil > Heat Water Coupling, property
 cmip6.land.soil.number_of_soil layers, Land > Soil > Number Of Soil Layers, property
@@ -58,6 +59,7 @@ cmip6.land.soil.heat_treatment.vertical_discretisation, Land > Soil > Heat Treat
 cmip6.land.soil.heat_treatment.heat_storage, Land > Soil > Heat Treatment > Heat Storage, property
 cmip6.land.soil.heat_treatment.processes, Land > Soil > Heat Treatment > Processes, property
 , , 
+cmip6.land.snow.name, Land > Snow > Name, property
 cmip6.land.snow.overview, Land > Snow > Overview, property
 cmip6.land.snow.tiling, Land > Snow > Tiling, property
 cmip6.land.snow.number_of_snow_layers, Land > Snow > Number Of Snow Layers, property
@@ -72,6 +74,7 @@ cmip6.land.snow.prognostic_variables, Land > Snow > Prognostic Variables, proper
 cmip6.land.snow.snow_albedo.type, Land > Snow > Snow Albedo > Type, property
 cmip6.land.snow.snow_albedo.functions, Land > Snow > Snow Albedo > Functions, property
 , , 
+cmip6.land.vegetation.name, Land > Vegetation > Name, property
 cmip6.land.vegetation.overview, Land > Vegetation > Overview, property
 cmip6.land.vegetation.time_step, Land > Vegetation > Time Step, property
 cmip6.land.vegetation.dynamic_vegetation, Land > Vegetation > Dynamic Vegetation, property
@@ -94,12 +97,14 @@ cmip6.land.vegetation.stomatal_resistance, Land > Vegetation > Stomatal Resistan
 cmip6.land.vegetation.stomatal_resistance_description, Land > Vegetation > Stomatal Resistance Description, property
 cmip6.land.vegetation.prognostic_variables, Land > Vegetation > Prognostic Variables, property
 , , 
+cmip6.land.energy_balance.name, Land > Energy Balance > Name, property
 cmip6.land.energy_balance.overview, Land > Energy Balance > Overview, property
 cmip6.land.energy_balance.tiling, Land > Energy Balance > Tiling, property
 cmip6.land.energy_balance.number_of_surface_temperatures, Land > Energy Balance > Number Of Surface Temperatures, property
 cmip6.land.energy_balance.evaporation, Land > Energy Balance > Evaporation, property
 cmip6.land.energy_balance.processes, Land > Energy Balance > Processes, property
 , , 
+cmip6.land.carbon_cycle.name, Land > Carbon Cycle > Name, property
 cmip6.land.carbon_cycle.overview, Land > Carbon Cycle > Overview, property
 cmip6.land.carbon_cycle.tiling, Land > Carbon Cycle > Tiling, property
 cmip6.land.carbon_cycle.time_step, Land > Carbon Cycle > Time Step, property
@@ -129,11 +134,13 @@ cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases, Land > Carbo
 cmip6.land.carbon_cycle.permafrost_carbon.decomposition, Land > Carbon Cycle > Permafrost Carbon > Decomposition, property
 cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties, Land > Carbon Cycle > Permafrost Carbon > Impact On Soil Properties, property
 , , 
+cmip6.land.nitrogen_cycle.name, Land > Nitrogen Cycle > Name, property
 cmip6.land.nitrogen_cycle.overview, Land > Nitrogen Cycle > Overview, property
 cmip6.land.nitrogen_cycle.tiling, Land > Nitrogen Cycle > Tiling, property
 cmip6.land.nitrogen_cycle.time_step, Land > Nitrogen Cycle > Time Step, property
 cmip6.land.nitrogen_cycle.prognostic_variables, Land > Nitrogen Cycle > Prognostic Variables, property
 , , 
+cmip6.land.river_routing.name, Land > River Routing > Name, property
 cmip6.land.river_routing.overview, Land > River Routing > Overview, property
 cmip6.land.river_routing.tiling, Land > River Routing > Tiling, property
 cmip6.land.river_routing.time_step, Land > River Routing > Time Step, property
@@ -150,6 +157,7 @@ cmip6.land.river_routing.prognostic_variables, Land > River Routing > Prognostic
 cmip6.land.river_routing.oceanic_discharge.discharge_type, Land > River Routing > Oceanic Discharge > Discharge Type, property
 cmip6.land.river_routing.oceanic_discharge.quantities_transported, Land > River Routing > Oceanic Discharge > Quantities Transported, property
 , , 
+cmip6.land.lakes.name, Land > Lakes > Name, property
 cmip6.land.lakes.overview, Land > Lakes > Overview, property
 cmip6.land.lakes.coupling_with_rivers, Land > Lakes > Coupling With Rivers, property
 cmip6.land.lakes.time_step, Land > Lakes > Time Step, property

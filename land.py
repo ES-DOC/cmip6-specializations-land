@@ -27,11 +27,6 @@ AUTHORS = 'David Hassell, Eric Guilyardi'
 CONTRIBUTORS = 'CMIP5 version, Rich Ellis (CEH), Phillipe Peylin (IPSL)'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # CHANGE HISTORY: Set to list: (version, date, who, comment).
 # --------------------------------------------------------------------
 CHANGE_HISTORY = [
@@ -49,7 +44,7 @@ CMIP5_MAPPINGS_SYNCED_AT = "0.2.0"
 # --------------------------------------------------------------------
 # DESCRIPTION: Scientific context of this scientific realm
 # --------------------------------------------------------------------
-DESCRIPTION = 'Land Surface Realm'
+DESCRIPTION = 'Land Surface'
 
 # --------------------------------------------------------------------
 # KEY PROPERTIES: Key properties for the realm which differ from model defaults (grid, timestep etc)
@@ -74,13 +69,3 @@ PROCESSES = [
     'land_river_routing',
     'land_lakes',
     ]
-
-# --------------------------------------------------------------------
-# DETAILS: top level realm details
-# --------------------------------------------------------------------
-DETAILS = OrderedDict()
-
-# --------------------------------------------------------------------
-# ENUMERATIONS: top level realm enumerations
-# --------------------------------------------------------------------
-ENUMERATIONS = OrderedDict()

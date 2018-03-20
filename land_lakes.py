@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to realm specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to realm specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Land surface lakes'
@@ -35,10 +20,8 @@ DESCRIPTION = 'Land surface lakes'
 # LAKES: top level
 # --------------------------------------------------------------------
 DETAILS['toplevel'] = {
-    'description': 'TODO',
+    'description': 'Land surface lakes top level properties',
     'properties' : [
-        ('overview', 'str', '1.1',
-             'Overview of lakes in the land surface'),
         ('coupling_with_rivers', 'bool', '1.1',
              'Are lakes coupled to the river routing model component?'),
         ('time_step', 'int', '1.1',

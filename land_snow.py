@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to realm specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to realm specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Land surface snow'
@@ -37,8 +22,6 @@ DESCRIPTION = 'Land surface snow'
 DETAILS['toplevel'] = {
     'description': 'Properties of land surface snow scheme',
     'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of snow in the land surface'),
         ('tiling', 'str', '0.1',
              'Describe the snow tiling, if any.'),        
         ('number_of_snow_layers', 'int', '1.1',

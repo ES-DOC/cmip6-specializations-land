@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to realm specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to realm specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Land surface vegetation'
@@ -37,8 +22,6 @@ DESCRIPTION = 'Land surface vegetation'
 DETAILS['toplevel'] = {
     'description': 'Key properties of the land surface vegetation',
     'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of vegetation in the land surface'),
         ('time_step', 'int', '1.1',
              'Time step of vegetation scheme in seconds'),                
         ('dynamic_vegetation', 'bool', '1.1',

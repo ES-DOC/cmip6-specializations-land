@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to realm specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to realm specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Land surface carbon cycle'
@@ -35,10 +20,8 @@ DESCRIPTION = 'Land surface carbon cycle'
 # CARBON CYCLE: top level
 # --------------------------------------------------------------------
 DETAILS['toplevel'] = {
-    'description': 'Properties of land surface carbon cycle',
+    'description': 'Land surface carbon cycle top level properties',
     'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of carbon cycle in land surface'),
         ('tiling', 'str', '0.1',
              'Describe the carbon cycle tiling, if any.'),
         ('time_step', 'int', '1.1',
@@ -63,13 +46,6 @@ DETAILS['vegetation'] = {
              'List the carbon pools used'),
         ('forest_stand_dynamics', 'str', '0.1',
              'Describe the treatment of forest stand dyanmics'),
-    ],
-    'detail_sets': [
-        'photosynthesis',
-        'autotrophic_respiration',
-        'allocation',
-        'phenology',
-        'mortality',
     ]
 }
 

@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to realm specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to realm specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Land surface soil'
@@ -35,11 +20,9 @@ DESCRIPTION = 'Land surface soil'
 # PROCESS: top level properties
 # --------------------------------------------------------------------
 DETAILS['toplevel'] = {
-    'description': 'TODO',
+    'description': 'Land surface soil top level properties',
     'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of soil in the land surface'),
-        ('heat_water_coupling', 'str', '1.1',
+         ('heat_water_coupling', 'str', '1.1',
              'Describe the coupling between heat and water in the soil'),
          ('number_of_soil layers', 'int', '1.1',
              'The number of soil layers'),
@@ -110,10 +93,6 @@ DETAILS['hydrology'] = {
              'Describe the lateral connectivity between tiles'),
         ('method', 'ENUM:water_storage_method_types', '1.1',
              'The hydrological dynamics scheme in the land surface model'),
-    ],
-    'detail_sets': [
-        'freezing',
-        'drainage'
     ]
 }
 

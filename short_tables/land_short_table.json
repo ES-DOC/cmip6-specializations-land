@@ -24,6 +24,5 @@
         ["cmip6.land.nitrogen_cycle.prognostic_variables", 1],
         ["cmip6.land.river_routing.prognostic_variables", 1],
         ["cmip6.land.lakes.method.dynamics", 1]
-    ],
-    "QC_STATUS": "draft"
+    ]
 }
