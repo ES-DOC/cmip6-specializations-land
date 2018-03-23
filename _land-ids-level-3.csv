@@ -1,13 +1,4 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.land.grid.name, Land > Grid > Name, property
-cmip6.land.grid.overview, Land > Grid > Overview, property
-cmip6.land.grid.horizontal.overview, Land > Grid > Horizontal > Overview, property
-cmip6.land.grid.horizontal.description, Land > Grid > Horizontal > Description, property
-cmip6.land.grid.horizontal.matches_atmosphere_grid, Land > Grid > Horizontal > Matches Atmosphere Grid, property
-cmip6.land.grid.vertical.overview, Land > Grid > Vertical > Overview, property
-cmip6.land.grid.vertical.description, Land > Grid > Vertical > Description, property
-cmip6.land.grid.vertical.total_depth, Land > Grid > Vertical > Total Depth, property
-, , 
 cmip6.land.key_properties.name, Land > Key Properties > Name, property
 cmip6.land.key_properties.overview, Land > Key Properties > Overview, property
 cmip6.land.key_properties.description, Land > Key Properties > Description, property
@@ -28,6 +19,15 @@ cmip6.land.key_properties.software_properties.overview, Land > Key Properties > 
 cmip6.land.key_properties.software_properties.repository, Land > Key Properties > Software Properties > Repository, property
 cmip6.land.key_properties.software_properties.code_version, Land > Key Properties > Software Properties > Code Version, property
 cmip6.land.key_properties.software_properties.code_languages, Land > Key Properties > Software Properties > Code Languages, property
+, , 
+cmip6.land.grid.name, Land > Grid > Name, property
+cmip6.land.grid.overview, Land > Grid > Overview, property
+cmip6.land.grid.horizontal.overview, Land > Grid > Horizontal > Overview, property
+cmip6.land.grid.horizontal.description, Land > Grid > Horizontal > Description, property
+cmip6.land.grid.horizontal.matches_atmosphere_grid, Land > Grid > Horizontal > Matches Atmosphere Grid, property
+cmip6.land.grid.vertical.overview, Land > Grid > Vertical > Overview, property
+cmip6.land.grid.vertical.description, Land > Grid > Vertical > Description, property
+cmip6.land.grid.vertical.total_depth, Land > Grid > Vertical > Total Depth, property
 , , 
 cmip6.land.soil.name, Land > Soil > Name, property
 cmip6.land.soil.overview, Land > Soil > Overview, property
