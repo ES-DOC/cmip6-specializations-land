@@ -10,8 +10,8 @@
     ],
     "LABEL": "Main",
     "PROPERTIES": [
-        ["cmip6.land.key_properties.toplevel.model_name", 1],
-        ["cmip6.land.key_properties.toplevel.land_atmosphere_flux_exchanges", 1],
+        ["cmip6.land.key_properties.name", 1],
+        ["cmip6.land.key_properties.land_atmosphere_flux_exchanges", 1],
         ["cmip6.land.key_properties.tiling", 1],
         ["cmip6.land.key_properties.atmospheric_coupling_treatment", 1],
         ["cmip6.land.vegetation.vegetation_time_variation", 1],
