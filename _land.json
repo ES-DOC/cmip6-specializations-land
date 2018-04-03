@@ -23,7 +23,7 @@
                     "description": "Overview of land surface soil in land model.", 
                     "id": "cmip6.land.soil.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -526,7 +526,7 @@
                     "description": "Overview of land surface snow in land model.", 
                     "id": "cmip6.land.snow.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -823,7 +823,7 @@
                     "description": "Overview of land surface vegetation in land model.", 
                     "id": "cmip6.land.vegetation.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -1214,7 +1214,7 @@
                     "description": "Overview of land surface energy balance in land model.", 
                     "id": "cmip6.land.energy_balance.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -1304,7 +1304,7 @@
                     "description": "Overview of land surface carbon cycle in land model.", 
                     "id": "cmip6.land.carbon_cycle.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -1712,7 +1712,7 @@
                     "description": "Overview of land surface nitrogen cycle in land model.", 
                     "id": "cmip6.land.nitrogen_cycle.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -1760,7 +1760,7 @@
                     "description": "Overview of land surface river routing in land model.", 
                     "id": "cmip6.land.river_routing.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -1997,7 +1997,7 @@
                     "description": "Overview of land surface lakes in land model.", 
                     "id": "cmip6.land.lakes.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -2197,7 +2197,7 @@
                 "description": "Overview of grid in land model.", 
                 "id": "cmip6.land.grid.overview", 
                 "cardinality": "0.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 2
             }
         ], 
@@ -2283,12 +2283,20 @@
                 "uiOrdinal": 1
             }, 
             {
+                "label": "Keywords", 
+                "description": "Keywords associated with land model code", 
+                "id": "cmip6.land.key_properties.keywords", 
+                "cardinality": "1.1", 
+                "type": "cs", 
+                "uiOrdinal": 2
+            }, 
+            {
                 "label": "Overview", 
                 "description": "Overview of land model.", 
                 "id": "cmip6.land.key_properties.overview", 
                 "cardinality": "1.1", 
-                "type": "str", 
-                "uiOrdinal": 2
+                "type": "l", 
+                "uiOrdinal": 3
             }, 
             {
                 "label": "Description", 
@@ -2296,7 +2304,7 @@
                 "id": "cmip6.land.key_properties.description", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 3
+                "uiOrdinal": 4
             }, 
             {
                 "label": "Land Atmosphere Flux Exchanges", 
@@ -2331,7 +2339,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 4
+                "uiOrdinal": 5
             }, 
             {
                 "label": "Atmospheric Coupling Treatment", 
@@ -2339,7 +2347,7 @@
                 "id": "cmip6.land.key_properties.atmospheric_coupling_treatment", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 5
+                "uiOrdinal": 6
             }, 
             {
                 "label": "Land Cover", 
@@ -2378,7 +2386,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 6
+                "uiOrdinal": 7
             }, 
             {
                 "label": "Land Cover Change", 
@@ -2386,7 +2394,7 @@
                 "id": "cmip6.land.key_properties.land_cover_change", 
                 "cardinality": "0.1", 
                 "type": "str", 
-                "uiOrdinal": 7
+                "uiOrdinal": 8
             }, 
             {
                 "label": "Tiling", 
@@ -2394,7 +2402,7 @@
                 "id": "cmip6.land.key_properties.tiling", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 8
+                "uiOrdinal": 9
             }
         ], 
         "subProcesses": [
