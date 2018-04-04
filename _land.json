@@ -31,7 +31,7 @@
                     "description": "Describe the coupling between heat and water in the soil", 
                     "id": "cmip6.land.soil.heat_water_coupling", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -47,7 +47,7 @@
                     "description": "List the prognostic variables of the soil scheme", 
                     "id": "cmip6.land.soil.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 5
                 }
             ], 
@@ -71,7 +71,7 @@
                             "description": "General description of soil map", 
                             "id": "cmip6.land.soil.soil_map.description", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -79,7 +79,7 @@
                             "description": "Describe the soil structure map", 
                             "id": "cmip6.land.soil.soil_map.structure", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -87,7 +87,7 @@
                             "description": "Describe the soil texture map", 
                             "id": "cmip6.land.soil.soil_map.texture", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -95,7 +95,7 @@
                             "description": "Describe the soil organic matter map", 
                             "id": "cmip6.land.soil.soil_map.organic_matter", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -103,7 +103,7 @@
                             "description": "Describe the soil albedo map", 
                             "id": "cmip6.land.soil.soil_map.albedo", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 6
                         }, 
                         {
@@ -111,7 +111,7 @@
                             "description": "Describe the soil water table map, if any", 
                             "id": "cmip6.land.soil.soil_map.water_table", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 7
                         }, 
                         {
@@ -127,7 +127,7 @@
                             "description": "Describe the soil depth map", 
                             "id": "cmip6.land.soil.soil_map.soil_depth", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 9
                         }
                     ]
@@ -233,7 +233,7 @@
                             "description": "General description of the soil hydrological model", 
                             "id": "cmip6.land.soil.hydrology.description", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -249,7 +249,7 @@
                             "description": "Describe the soil hydrology tiling, if any.", 
                             "id": "cmip6.land.soil.hydrology.tiling", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -257,7 +257,7 @@
                             "description": "Describe the typical vertical discretisation", 
                             "id": "cmip6.land.soil.hydrology.vertical_discretisation", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -342,7 +342,7 @@
                                     "description": "Describe the method of ice storage", 
                                     "id": "cmip6.land.soil.hydrology.freezing.ice_storage_method", 
                                     "cardinality": "1.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }, 
                                 {
@@ -350,7 +350,7 @@
                                     "description": "Describe the treatment of permafrost, if any, within the land surface scheme", 
                                     "id": "cmip6.land.soil.hydrology.freezing.permafrost", 
                                     "cardinality": "1.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 3
                                 }
                             ]
@@ -365,7 +365,7 @@
                                     "description": "General describe how drainage is included in the land surface scheme", 
                                     "id": "cmip6.land.soil.hydrology.drainage.description", 
                                     "cardinality": "1.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 1
                                 }, 
                                 {
@@ -430,7 +430,7 @@
                             "description": "General description of how heat treatment properties are defined", 
                             "id": "cmip6.land.soil.heat_treatment.description", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -446,7 +446,7 @@
                             "description": "Describe the soil heat treatment tiling, if any.", 
                             "id": "cmip6.land.soil.heat_treatment.tiling", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -454,7 +454,7 @@
                             "description": "Describe the typical vertical discretisation", 
                             "id": "cmip6.land.soil.heat_treatment.vertical_discretisation", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -534,7 +534,7 @@
                     "description": "Describe the snow tiling, if any.", 
                     "id": "cmip6.land.snow.tiling", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -719,7 +719,7 @@
                     "description": "List the prognostic variables of the snow scheme", 
                     "id": "cmip6.land.snow.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 12
                 }
             ], 
@@ -847,7 +847,7 @@
                     "description": "Describe the vegetation tiling, if any.", 
                     "id": "cmip6.land.vegetation.tiling", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 5
                 }, 
                 {
@@ -1003,7 +1003,7 @@
                     "description": "If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)", 
                     "id": "cmip6.land.vegetation.vegetation_map", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 10
                 }, 
                 {
@@ -1042,7 +1042,7 @@
                     "description": "General description of the treatment of vegetation phenology", 
                     "id": "cmip6.land.vegetation.phenology_description", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 13
                 }, 
                 {
@@ -1077,7 +1077,7 @@
                     "description": "General description of the treatment of leaf area index", 
                     "id": "cmip6.land.vegetation.leaf_area_index_description", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 15
                 }, 
                 {
@@ -1108,7 +1108,7 @@
                     "description": "General description of the treatment of vegetation biomass", 
                     "id": "cmip6.land.vegetation.biomass_description", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 17
                 }, 
                 {
@@ -1139,7 +1139,7 @@
                     "description": "General description of the treatment of vegetation biogeography", 
                     "id": "cmip6.land.vegetation.biogeography_description", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 19
                 }, 
                 {
@@ -1182,7 +1182,7 @@
                     "description": "General description of the treatment of vegetation stomatal resistance", 
                     "id": "cmip6.land.vegetation.stomatal_resistance_description", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 21
                 }, 
                 {
@@ -1190,7 +1190,7 @@
                     "description": "List the prognostic variables of the vegetation scheme", 
                     "id": "cmip6.land.vegetation.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 22
                 }
             ]
@@ -1222,7 +1222,7 @@
                     "description": "Describe the energy balance tiling, if any.", 
                     "id": "cmip6.land.energy_balance.tiling", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -1312,7 +1312,7 @@
                     "description": "Describe the carbon cycle tiling, if any.", 
                     "id": "cmip6.land.carbon_cycle.tiling", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -1355,7 +1355,7 @@
                     "description": "List the prognostic variables of the carbon scheme", 
                     "id": "cmip6.land.carbon_cycle.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 6
                 }
             ], 
@@ -1387,7 +1387,7 @@
                             "description": "List the carbon pools used", 
                             "id": "cmip6.land.carbon_cycle.vegetation.carbon_pools", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -1395,7 +1395,7 @@
                             "description": "Describe the treatment of forest stand dyanmics", 
                             "id": "cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 4
                         }
                     ], 
@@ -1410,7 +1410,7 @@
                                     "description": "Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.photosynthesis.method", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 1
                                 }
                             ]
@@ -1425,7 +1425,7 @@
                                     "description": "Describe the general method used for maintainence respiration", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 1
                                 }, 
                                 {
@@ -1433,7 +1433,7 @@
                                     "description": "Describe the general method used for growth respiration", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -1448,7 +1448,7 @@
                                     "description": "Describe the general principle behind the allocation scheme", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.allocation.method", 
                                     "cardinality": "1.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 1
                                 }, 
                                 {
@@ -1525,7 +1525,7 @@
                                     "description": "Describe the general principle behind the phenology scheme", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.phenology.method", 
                                     "cardinality": "1.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 1
                                 }
                             ]
@@ -1540,7 +1540,7 @@
                                     "description": "Describe the general principle behind the mortality scheme", 
                                     "id": "cmip6.land.carbon_cycle.vegetation.mortality.method", 
                                     "cardinality": "1.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 1
                                 }
                             ]
@@ -1574,7 +1574,7 @@
                             "description": "List the carbon pools used", 
                             "id": "cmip6.land.carbon_cycle.litter.carbon_pools", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -1582,15 +1582,15 @@
                             "description": "List the decomposition methods used", 
                             "id": "cmip6.land.carbon_cycle.litter.decomposition", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 4
                         }, 
                         {
                             "label": "Method", 
-                            "description": "List the general method used", 
+                            "description": "Describe the general method used", 
                             "id": "cmip6.land.carbon_cycle.litter.method", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 5
                         }
                     ]
@@ -1622,7 +1622,7 @@
                             "description": "List the carbon pools used", 
                             "id": "cmip6.land.carbon_cycle.soil.carbon_pools", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -1630,15 +1630,15 @@
                             "description": "List the decomposition methods used", 
                             "id": "cmip6.land.carbon_cycle.soil.decomposition", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 4
                         }, 
                         {
                             "label": "Method", 
-                            "description": "List the general method used", 
+                            "description": "Describe the general method used", 
                             "id": "cmip6.land.carbon_cycle.soil.method", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 5
                         }
                     ]
@@ -1670,7 +1670,7 @@
                             "description": "List the GHGs emitted", 
                             "id": "cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -1678,7 +1678,7 @@
                             "description": "List the decomposition methods used", 
                             "id": "cmip6.land.carbon_cycle.permafrost_carbon.decomposition", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs", 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -1686,7 +1686,7 @@
                             "description": "Describe the impact of permafrost on soil properties", 
                             "id": "cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 5
                         }
                     ]
@@ -1720,7 +1720,7 @@
                     "description": "Describe the notrogen cycle tiling, if any.", 
                     "id": "cmip6.land.nitrogen_cycle.tiling", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -1736,7 +1736,7 @@
                     "description": "List the prognostic variables of the nitrogen scheme", 
                     "id": "cmip6.land.nitrogen_cycle.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 5
                 }
             ]
@@ -1768,7 +1768,7 @@
                     "description": "Describe the river routing, if any.", 
                     "id": "cmip6.land.river_routing.tiling", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -1792,7 +1792,7 @@
                     "description": "General description of grid, if not inherited from land surface", 
                     "id": "cmip6.land.river_routing.grid_description", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -1839,7 +1839,7 @@
                     "description": "Describe the coupling between land and rivers", 
                     "id": "cmip6.land.river_routing.coupled_to_land", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 10
                 }, 
                 {
@@ -1897,7 +1897,7 @@
                     "description": "Describe the representation of flooding, if any", 
                     "id": "cmip6.land.river_routing.flooding", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 13
                 }, 
                 {
@@ -1905,7 +1905,7 @@
                     "description": "List the prognostic variables of the river routing", 
                     "id": "cmip6.land.river_routing.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 14
                 }
             ], 
@@ -2048,7 +2048,7 @@
                     "description": "Describe the vertical grid of lakes", 
                     "id": "cmip6.land.lakes.vertical_grid", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -2056,7 +2056,7 @@
                     "description": "List the prognostic variables of the lake scheme", 
                     "id": "cmip6.land.lakes.prognostic_variables", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 7
                 }
             ], 
@@ -2170,7 +2170,7 @@
                             "description": "Describe the treatment of wetlands, if any", 
                             "id": "cmip6.land.lakes.wetlands.description", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 2
                         }
                     ]
@@ -2221,7 +2221,7 @@
                         "description": "Describe the general structure of the horizontal grid (not including any tiling)", 
                         "id": "cmip6.land.grid.horizontal.description", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -2253,7 +2253,7 @@
                         "description": "Describe the general structure of the  vertical grid in the soil (not including any tiling)", 
                         "id": "cmip6.land.grid.vertical.description", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -2303,7 +2303,7 @@
                 "description": "General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)", 
                 "id": "cmip6.land.key_properties.description", 
                 "cardinality": "1.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 4
             }, 
             {
@@ -2346,7 +2346,7 @@
                 "description": "Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)", 
                 "id": "cmip6.land.key_properties.atmospheric_coupling_treatment", 
                 "cardinality": "1.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 6
             }, 
             {
@@ -2393,7 +2393,7 @@
                 "description": "Describe how land cover change is managed (e.g. the use of net or gross transitions)", 
                 "id": "cmip6.land.key_properties.land_cover_change", 
                 "cardinality": "0.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 8
             }, 
             {
@@ -2401,7 +2401,7 @@
                 "description": "Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness", 
                 "id": "cmip6.land.key_properties.tiling", 
                 "cardinality": "1.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 9
             }
         ], 
@@ -2425,7 +2425,7 @@
                         "description": "Describe if/how energy is conserved globally and to what level (e.g. within X [units]/year)", 
                         "id": "cmip6.land.key_properties.conservation_properties.energy", 
                         "cardinality": "0.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -2433,7 +2433,7 @@
                         "description": "Describe if/how water is conserved globally and to what level (e.g. within X [units]/year)", 
                         "id": "cmip6.land.key_properties.conservation_properties.water", 
                         "cardinality": "0.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -2441,7 +2441,7 @@
                         "description": "Describe if/how carbon is conserved globally and to what level (e.g. within X [units]/year)", 
                         "id": "cmip6.land.key_properties.conservation_properties.carbon", 
                         "cardinality": "0.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 4
                     }
                 ]
@@ -2481,7 +2481,7 @@
                         "description": "General description of time stepping method and associated time step(s)", 
                         "id": "cmip6.land.key_properties.timestepping_framework.timestepping_method", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 4
                     }
                 ]
@@ -2520,8 +2520,8 @@
                         "label": "Code Languages", 
                         "description": "Code language(s).", 
                         "id": "cmip6.land.key_properties.software_properties.code_languages", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 4
                     }
                 ]

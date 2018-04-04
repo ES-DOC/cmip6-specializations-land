@@ -128,14 +128,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.description</dd>
+        <dt><b>Description</b></dt><dd>General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.description</dd>
+        <dt><b>Description</b></dt><dd>General description of the processes modelled (e.g. dymanic vegation, prognostic albedo, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="land_atmosphere_flux_exchanges"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -191,14 +191,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="land_cover"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -261,28 +261,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
+        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
+        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the general tiling procedure used in the land surface (if any). Include treatment of physiography, land/sea, (dynamic) vegetation coverage and orography/roughness</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="conservation_properties"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -310,42 +310,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how energy is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how energy is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how energy is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how energy is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.energy</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="water"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how water is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how water is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how water is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how water is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.water</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="carbon"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how carbon is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how carbon is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how carbon is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how carbon is conserved globally and to what level (e.g. within X [units]/year)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.carbon</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="timestepping_framework"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -401,14 +401,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
+        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
+        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="software_properties"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -464,14 +464,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd>
+        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd>
+        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.software_properties.code_languages</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="grid"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -534,14 +534,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general structure of the horizontal grid (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd>
+        <dt><b>Description</b></dt><dd>Describe the general structure of the horizontal grid (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general structure of the horizontal grid (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd>
+        <dt><b>Description</b></dt><dd>Describe the general structure of the horizontal grid (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.horizontal.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="matches_atmosphere_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -583,14 +583,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general structure of the  vertical grid in the soil (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.vertical.description</dd>
+        <dt><b>Description</b></dt><dd>Describe the general structure of the  vertical grid in the soil (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.vertical.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general structure of the  vertical grid in the soil (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.vertical.description</dd>
+        <dt><b>Description</b></dt><dd>Describe the general structure of the  vertical grid in the soil (not including any tiling)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.vertical.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="total_depth"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -653,14 +653,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
+        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
+        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_soil layers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -681,14 +681,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the soil scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the soil scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the soil scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the soil scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="soil_map"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -716,84 +716,84 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of soil map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd>
+        <dt><b>Description</b></dt><dd>General description of soil map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of soil map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd>
+        <dt><b>Description</b></dt><dd>General description of soil map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="structure"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="texture"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="organic_matter"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="albedo"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="water_table"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="continuously_varying_soil_depth"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -814,14 +814,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="snow_free_albedo"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -961,14 +961,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the soil hydrological model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd>
+        <dt><b>Description</b></dt><dd>General description of the soil hydrological model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the soil hydrological model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd>
+        <dt><b>Description</b></dt><dd>General description of the soil hydrological model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -989,28 +989,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil hydrology tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil hydrology tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil hydrology tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil hydrology tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="vertical_discretisation"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd>
+        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd>
+        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.vertical_discretisation</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_ground_water_layers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1122,28 +1122,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
+        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
+        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="permafrost"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of permafrost, if any, within the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of permafrost, if any, within the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of permafrost, if any, within the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of permafrost, if any, within the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.permafrost</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="drainage"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1157,14 +1157,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General describe how drainage is included in the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd>
+        <dt><b>Description</b></dt><dd>General describe how drainage is included in the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General describe how drainage is included in the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd>
+        <dt><b>Description</b></dt><dd>General describe how drainage is included in the land surface scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.drainage.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="types"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1248,14 +1248,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of how heat treatment properties are defined</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd>
+        <dt><b>Description</b></dt><dd>General description of how heat treatment properties are defined</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of how heat treatment properties are defined</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd>
+        <dt><b>Description</b></dt><dd>General description of how heat treatment properties are defined</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1276,28 +1276,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil heat treatment tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil heat treatment tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil heat treatment tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil heat treatment tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="vertical_discretisation"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd>
+        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd>
+        <dt><b>Description</b></dt><dd>Describe the typical vertical discretisation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.vertical_discretisation</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="heat_storage"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1402,14 +1402,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the snow tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the snow tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the snow tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the snow tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_snow_layers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1640,14 +1640,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the snow scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the snow scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the snow scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the snow scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="snow_albedo"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1829,14 +1829,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the vegetation tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the vegetation tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the vegetation tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the vegetation tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="vegetation_representation"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2053,14 +2053,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
+        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
+        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="interception"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2109,14 +2109,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation phenology</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation phenology</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation phenology</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation phenology</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.phenology_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="leaf_area_index"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2158,14 +2158,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of leaf area index</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of leaf area index</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of leaf area index</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of leaf area index</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.leaf_area_index_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="biomass"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2200,14 +2200,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biomass</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biomass</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biomass</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biomass</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biomass_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="biogeography"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2242,14 +2242,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biogeography</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biogeography</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biogeography</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation biogeography</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.biogeography_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="stomatal_resistance"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2305,28 +2305,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation stomatal resistance</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation stomatal resistance</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation stomatal resistance</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd>
+        <dt><b>Description</b></dt><dd>General description of the treatment of vegetation stomatal resistance</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.stomatal_resistance_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic_variables"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the vegetation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the vegetation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the vegetation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the vegetation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="energy_balance"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2375,14 +2375,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the energy balance tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the energy balance tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the energy balance tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the energy balance tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_surface_temperatures"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2508,14 +2508,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the carbon cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the carbon cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the carbon cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the carbon cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2571,14 +2571,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the carbon scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the carbon scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the carbon scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the carbon scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="vegetation"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2620,28 +2620,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd>
+        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd>
+        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.carbon_pools</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="forest_stand_dynamics"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of forest stand dyanmics</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of forest stand dyanmics</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of forest stand dyanmics</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of forest stand dyanmics</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="photosynthesis"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2655,14 +2655,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="autotrophic_respiration"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2676,28 +2676,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general method used for maintainence respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used for maintainence respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general method used for maintainence respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used for maintainence respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="growth_respiration"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general method used for growth respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used for growth respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general method used for growth respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used for growth respiration</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="allocation"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2711,14 +2711,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the allocation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the allocation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the allocation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the allocation scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation.method</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="allocation_bins"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2816,14 +2816,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="mortality"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2837,14 +2837,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="litter"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2886,42 +2886,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd>
+        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd>
+        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.carbon_pools</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="decomposition"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd>
+        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd>
+        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.decomposition</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="soil"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2963,42 +2963,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd>
+        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd>
+        <dt><b>Description</b></dt><dd>List the carbon pools used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.carbon_pools</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="decomposition"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd>
+        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd>
+        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.decomposition</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general method used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="permafrost_carbon"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3040,42 +3040,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the GHGs emitted</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd>
+        <dt><b>Description</b></dt><dd>List the GHGs emitted</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the GHGs emitted</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd>
+        <dt><b>Description</b></dt><dd>List the GHGs emitted</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="decomposition"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd>
+        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd>
+        <dt><b>Description</b></dt><dd>List the decomposition methods used</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.decomposition</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="impact_on_soil_properties"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
+        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
+        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="nitrogen_cycle"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3124,14 +3124,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the notrogen cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the notrogen cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the notrogen cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the notrogen cycle tiling, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -3152,14 +3152,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the nitrogen scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the nitrogen scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the nitrogen scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the nitrogen scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="river_routing"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3208,14 +3208,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the river routing, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the river routing, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.tiling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the river routing, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.tiling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.tiling</dd>
+        <dt><b>Description</b></dt><dd>Describe the river routing, if any.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.tiling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.tiling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -3250,14 +3250,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
+        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
+        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_reservoirs"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -3320,14 +3320,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the coupling between land and rivers</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd>
+        <dt><b>Description</b></dt><dd>Describe the coupling between land and rivers</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the coupling between land and rivers</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd>
+        <dt><b>Description</b></dt><dd>Describe the coupling between land and rivers</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.coupled_to_land</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="quantities_exchanged_with_atmosphere"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -3397,28 +3397,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the representation of flooding, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.flooding</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.flooding</dd>
+        <dt><b>Description</b></dt><dd>Describe the representation of flooding, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.flooding</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.flooding</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the representation of flooding, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.flooding</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.flooding</dd>
+        <dt><b>Description</b></dt><dd>Describe the representation of flooding, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.flooding</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.flooding</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic_variables"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the river routing</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the river routing</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the river routing</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the river routing</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="oceanic_discharge"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3614,28 +3614,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
+        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
+        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic_variables"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the lake scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the lake scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List the prognostic variables of the lake scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd>
+        <dt><b>Description</b></dt><dd>List the prognostic variables of the lake scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.prognostic_variables</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3789,14 +3789,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of wetlands, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of wetlands, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of wetlands, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of wetlands, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.wetlands.description</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="SHORT TABLES"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="land"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.key_properties.name"><richcontent TYPE="NOTE"><html>
