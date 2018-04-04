@@ -36,6 +36,8 @@ CHANGE_HISTORY = [
          "Incorporating comments from Christine Delire (CNRM), Bark van de Hurk (KNMI), Sergey Malyshev (GFDL), Chris Milly (GFDL)")
     ("0.3.0", "2018-04-04", "David Hassell",
         "Replaced some occurences of 'str' with 'cs-str' and 'l-str'"),
+    ("1.0.0", "2018-04-04", "David Hassell",
+        "Moved to v1"),
 ]
 
 # --------------------------------------------------------------------
