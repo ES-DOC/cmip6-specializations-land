@@ -22,7 +22,7 @@ DESCRIPTION = 'Land surface energy balance'
 DETAILS['toplevel'] = {
     'description': 'General properties in land surface energy balance scheme',
     'properties': [
-        ('tiling', 'str', '0.1',
+        ('tiling', 'l-str', '0.1',
              'Describe the energy balance tiling, if any.'),        
         ('number_of_surface_temperatures', 'int', '1.1',
             'The maximum number of distinct surface temperatures in a grid cell  (for example, each subgrid tile may have its own temperature)'),

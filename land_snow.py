@@ -22,7 +22,7 @@ DESCRIPTION = 'Land surface snow'
 DETAILS['toplevel'] = {
     'description': 'Properties of land surface snow scheme',
     'properties': [
-        ('tiling', 'str', '0.1',
+        ('tiling', 'l-str', '0.1',
              'Describe the snow tiling, if any.'),        
         ('number_of_snow_layers', 'int', '1.1',
              'The number of snow levels used in the land surface scheme/model'),
@@ -40,7 +40,7 @@ DETAILS['toplevel'] = {
              'Specify cover fractions used in the surface snow scheme'),
         ('processes', 'ENUM:snow_processes', '1.N',
              'Snow related processes in the land surface scheme'),
-        ('prognostic_variables', 'str', '1.1',
+        ('prognostic_variables', 'cs-str', '1.1',
              'List the prognostic variables of the snow scheme'),
     ]
 }

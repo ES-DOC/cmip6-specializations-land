@@ -22,11 +22,11 @@ DESCRIPTION = 'Land surface nitrogen cycle'
 DETAILS['toplevel'] = {
     'description': 'Land surface nitrogen cycle top level properties',
     'properties': [
-        ('tiling', 'str', '0.1',
+        ('tiling', 'l-str', '0.1',
              'Describe the notrogen cycle tiling, if any.'),
         ('time_step', 'int', '1.1',
              'Time step of nitrogen cycle in seconds'),
-        ('prognostic_variables', 'str', '1.1',
+        ('prognostic_variables', 'cs-str', '1.1',
              'List the prognostic variables of the nitrogen scheme'),
 
     ]

@@ -22,7 +22,7 @@ DESCRIPTION = 'Land surface albedo'
 DETAILS['toplevel'] = {
     'description': 'Land surface albedo top level properties',
     'properties': [
-        ('tiling', 'str', '0.1',
+        ('tiling', 'l-str', '0.1',
              'Describe the albedo tiling, if any.'),
     ],
 }
