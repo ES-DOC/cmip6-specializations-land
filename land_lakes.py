@@ -28,7 +28,7 @@ DETAILS['toplevel'] = {
              'Time step of lake scheme in seconds'),
         ('quantities_exchanged_with_rivers', 'ENUM:quantities_exchanged_with_rivers_types', '0.N',
              'If coupling with rivers, which quantities are exchanged between the lakes and rivers'),
-        ('vertical_grid', 'l-str', '0.1',
+        ('vertical_grid', 'str', '0.1',
              'Describe the vertical grid of lakes'),
         ('prognostic_variables', 'cs-str', '1.1',
              'List the prognostic variables of the lake scheme'),

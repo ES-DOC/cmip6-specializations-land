@@ -82,7 +82,7 @@ DETAILS['vegetation:allocation'] = {
 DETAILS['vegetation:phenology'] = {
     'description': 'TODO',
     'properties' : [
-        ('method', 'l-str', '1.1',
+        ('method', 'str', '1.1',
              'Describe the general principle behind the phenology scheme'),
     ]
 }
@@ -90,7 +90,7 @@ DETAILS['vegetation:phenology'] = {
 DETAILS['vegetation:mortality'] = {
     'description': 'TODO',
     'properties' : [
-        ('method', 'l-str', '1.1',
+        ('method', 'str', '1.1',
              'Describe the general principle behind the mortality scheme'),
     ]
 }
@@ -142,7 +142,7 @@ DETAILS['permafrost_carbon'] = {
              'List the GHGs emitted'),
         ('decomposition', 'cs-str', '0.1',
              'List the decomposition methods used'),
-        ('impact_on_soil_properties', 'l-str', '0.1',
+        ('impact_on_soil_properties', 'str', '0.1',
              'Describe the impact of permafrost on soil properties'),
     ]
 }
