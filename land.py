@@ -35,9 +35,11 @@ CHANGE_HISTORY = [
     ("0.2.0", "2016-06-01", "David Hassell",
          "Incorporating comments from Christine Delire (CNRM), Bark van de Hurk (KNMI), Sergey Malyshev (GFDL), Chris Milly (GFDL)"),
     ("0.3.0", "2018-04-04", "David Hassell",
-        "Replaced some occurences of 'str' with 'cs-str' and 'l-str'"),
+        "Replaced some occurences of str with cs-str and l-str"),
     ("1.0.0", "2018-04-04", "David Hassell",
         "Moved to v1"),
+    ("1.0.1", "2018-04-04", "David Hassell",
+        "Removed some l-str"),
     ("1.1.0", "2018-09-27", "David Hassell (NCAS)",
          "Added key_propoerties.tuning_applied"),
 ]

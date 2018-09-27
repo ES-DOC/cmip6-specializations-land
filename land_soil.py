@@ -22,7 +22,7 @@ DESCRIPTION = 'Land surface soil'
 DETAILS['toplevel'] = {
     'description': 'Land surface soil top level properties',
     'properties': [
-         ('heat_water_coupling', 'l-str', '1.1',
+         ('heat_water_coupling', 'str', '1.1',
              'Describe the coupling between heat and water in the soil'),
          ('number_of_soil layers', 'int', '1.1',
              'The number of soil layers'),
@@ -39,19 +39,19 @@ DETAILS['soil_map'] = {
     'properties': [
         ('description', 'l-str', '1.1',
              'General description of soil map'),
-        ('structure', 'l-str', '0.1',
+        ('structure', 'str', '0.1',
              'Describe the soil structure map'),
-        ('texture', 'l-str', '0.1',
+        ('texture', 'str', '0.1',
              'Describe the soil texture map'),
-        ('organic_matter', 'l-str', '0.1',
+        ('organic_matter', 'str', '0.1',
              'Describe the soil organic matter map'),
-        ('albedo', 'l-str', '0.1',
+        ('albedo', 'str', '0.1',
              'Describe the soil albedo map'),
-        ('water_table', 'l-str', '0.1',
+        ('water_table', 'str', '0.1',
              'Describe the soil water table map, if any'),
         ('continuously_varying_soil_depth', 'bool', '1.1',
              'Does the soil properties vary continuously with depth?'),
-        ('soil_depth', 'l-str', '0.1',
+        ('soil_depth', 'str', '0.1',
              'Describe the soil depth map'),
     ],
 }
@@ -60,7 +60,7 @@ DETAILS['soil_map'] = {
 # SUB-PROCESS: Snow-free albedo
 # --------------------------------------------------------------------
 DETAILS['snow_free_albedo'] = {
-    'description': 'TODO',
+    'description': 'Snow free albedo',
     'properties' : [
         ('prognostic', 'bool', '1.1',
              'Is snow free albedo prognostic?'),
@@ -77,7 +77,7 @@ DETAILS['snow_free_albedo'] = {
 # SUB-PROCESS: Hydrology
 # --------------------------------------------------------------------
 DETAILS['hydrology'] = {
-    'description': 'Key properties of the land surface soil hydrology',
+    'description': 'Key properties of the soil hydrology',
     'properties': [
         ('description', 'l-str', '1.1',
              'General description of the soil hydrological model'),
@@ -97,11 +97,11 @@ DETAILS['hydrology'] = {
 }
 
 DETAILS['hydrology:freezing'] = {
-    'description': 'TODO',
+    'description': 'Frozen soil treatment',
     'properties': [
         ('number_of_ground_ice_layers', 'int', '1.1',
             'How many soil layers may contain ground ice'),
-        ('ice_storage_method', 'l-str', '1.1',
+        ('ice_storage_method', 'str', '1.1',
             'Describe the method of ice storage'),
         ('permafrost', 'l-str', '1.1',
             'Describe the treatment of permafrost, if any, within the land surface scheme'),
@@ -109,7 +109,7 @@ DETAILS['hydrology:freezing'] = {
     }
 
 DETAILS['hydrology:drainage'] = {
-    'description': 'TODO',
+    'description': 'Drainage treatment in the soil',
     'properties': [
         ('description', 'l-str', '1.1',
             'General describe how drainage is included in the land surface scheme'),
@@ -122,7 +122,7 @@ DETAILS['hydrology:drainage'] = {
 # SUB-PROCESS: Heat treatment
 # --------------------------------------------------------------------
 DETAILS['heat_treatment'] = {
-    'description': 'TODO',
+    'description': 'Soil heat treatment',
     'properties': [
         ('description', 'l-str', '1.1',
              'General description of how heat treatment properties are defined'),

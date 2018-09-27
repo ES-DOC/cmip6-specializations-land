@@ -28,7 +28,7 @@ DETAILS['toplevel'] = {
              'Time step of river routing scheme in seconds'),        
         ('grid_inherited_from_land_surface', 'bool', '1.1',
              'Is the grid inherited from land surface?'),
-        ('grid_description', 'l-str', '0.1',
+        ('grid_description', 'str', '0.1',
              'General description of grid, if not inherited from land surface'),
         ('number_of_reservoirs', 'int', '1.1',
              'Enter the number of reservoirs'),
@@ -53,7 +53,7 @@ DETAILS['toplevel'] = {
 # RIVER ROUTING: process
 # --------------------------------------------------------------------
 DETAILS['oceanic_discharge'] = {
-    'description': 'TODO',
+    'description': 'Oceanic discharge treatment in river routing',
     'properties' : [
         ('discharge_type', 'ENUM:discharge_types', '1.1',
              'Specify how rivers are discharged to the ocean'),

@@ -23,7 +23,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Version</b></dt><dd>0.3.0</dd><dt><b>Date</b></dt><dd>2018-04-04</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Replaced some occurences of 'str' with 'cs-str' and 'l-str'</dd>
+        <dt><b>Version</b></dt><dd>0.3.0</dd><dt><b>Date</b></dt><dd>2018-04-04</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Replaced some occurences of str with cs-str and l-str</dd>
     </dl>
   </body>
 </html></richcontent></node><node STYLE="bubble" TEXT="1.0.0"><richcontent TYPE="NOTE"><html>
@@ -31,6 +31,13 @@
   <body>
     <dl>
         <dt><b>Version</b></dt><dd>1.0.0</dd><dt><b>Date</b></dt><dd>2018-04-04</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Moved to v1</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node STYLE="bubble" TEXT="1.0.1"><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Version</b></dt><dd>1.0.1</dd><dt><b>Date</b></dt><dd>2018-04-04</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Removed some l-str</dd>
     </dl>
   </body>
 </html></richcontent></node><node STYLE="bubble" TEXT="1.1.0"><richcontent TYPE="NOTE"><html>
@@ -103,49 +110,7 @@
         <dt><b>Description</b></dt><dd>Land surface key properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Name of land model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Name of land model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="keywords"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Keywords associated with land model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.keywords</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.keywords</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Keywords associated with land model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.keywords</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.keywords</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -212,14 +177,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
+        <dt><b>Description</b></dt><dd>Describe the treatment of land surface coupling with the Atmosphere model component, which may be different for different quantities (e.g. dust: semi-implicit, water vapour: explicit)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.atmospheric_coupling_treatment</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="land_cover"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -282,14 +247,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
+        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
+        <dt><b>Description</b></dt><dd>Describe how land cover change is managed (e.g. the use of net or gross transitions)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.land_cover_change</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -310,24 +275,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties</dd>
+        <dt><b>Description</b></dt><dd>Convservation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.conservation_properties.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="energy"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="energy"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -373,24 +324,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework</dd>
+        <dt><b>Description</b></dt><dd>Timestepping</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="timestep_dependent_on_atmosphere"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="timestep_dependent_on_atmosphere"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -422,14 +359,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
+        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
+        <dt><b>Description</b></dt><dd>General description of time stepping method and associated time step(s)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.timestepping_framework.timestepping_method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="software_properties"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -439,21 +376,7 @@
         <dt><b>Description</b></dt><dd>Software properties of land surface code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of software properties of land surface code in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.software_properties.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of software properties of land surface code in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.software_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.software_properties.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="repository"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="repository"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -502,21 +425,7 @@
         <dt><b>Description</b></dt><dd>Tuning methodology for land component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tuning_applied</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of tuning methodology for land component in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tuning_applied.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.tuning_applied.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of tuning methodology for land component in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.key_properties.tuning_applied.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.key_properties.tuning_applied.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -537,56 +446,14 @@
         <dt><b>Description</b></dt><dd>Land surface grid</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Name of grid in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Name of grid in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of grid in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of grid in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="horizontal"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="horizontal"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Description</b></dt><dd>The horizontal grid in the land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of the horizontal grid in the land surface in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.horizontal.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of the horizontal grid in the land surface in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.horizontal.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.horizontal.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -621,21 +488,7 @@
         <dt><b>Description</b></dt><dd>The vertical grid in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of the vertical grid in the soil in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.vertical.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of the vertical grid in the soil in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.grid.vertical.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.grid.vertical.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -677,46 +530,18 @@
         <dt><b>Description</b></dt><dd>Land surface soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="heat_water_coupling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the soil in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.name</dd>
+        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the soil in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface soil in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface soil in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="heat_water_coupling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
+        <dt><b>Description</b></dt><dd>Describe the coupling between heat and water in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_water_coupling</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_soil layers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -754,21 +579,7 @@
         <dt><b>Description</b></dt><dd>Key properties of the land surface soil map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of key properties of the land surface soil map in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of key properties of the land surface soil map in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -786,70 +597,70 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil structure map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.structure</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="texture"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil texture map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.texture</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="organic_matter"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil organic matter map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.organic_matter</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="albedo"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil albedo map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.albedo</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="water_table"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil water table map, if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.water_table</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="continuously_varying_soil_depth"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -870,38 +681,24 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
+        <dt><b>Description</b></dt><dd>Describe the soil depth map</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.soil_map.soil_depth</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="snow_free_albedo"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.snow_free_albedo</dd>
+        <dt><b>Description</b></dt><dd>Snow free albedo</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.snow_free_albedo</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.snow_free_albedo.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.snow_free_albedo.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.snow_free_albedo.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.snow_free_albedo.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -996,24 +793,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Key properties of the land surface soil hydrology</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology</dd>
+        <dt><b>Description</b></dt><dd>Key properties of the soil hydrology</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of key properties of the land surface soil hydrology in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of key properties of the land surface soil hydrology in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -1157,7 +940,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing</dd>
+        <dt><b>Description</b></dt><dd>Frozen soil treatment</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_ground_ice_layers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1178,14 +961,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
+        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
+        <dt><b>Description</b></dt><dd>Describe the method of ice storage</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.hydrology.freezing.ice_storage_method</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="permafrost"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1206,7 +989,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.drainage</dd>
+        <dt><b>Description</b></dt><dd>Drainage treatment in the soil</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.hydrology.drainage</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1283,24 +1066,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment</dd>
+        <dt><b>Description</b></dt><dd>Soil heat treatment</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.soil.heat_treatment.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.soil.heat_treatment.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -1426,35 +1195,7 @@
         <dt><b>Description</b></dt><dd>Land surface snow</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the snow in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the snow in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface snow in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface snow in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -1710,24 +1451,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo</dd>
+        <dt><b>Description</b></dt><dd>Snow albedo</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.snow_albedo.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.snow_albedo.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="type"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="type"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -1766,14 +1493,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If prognostic, </dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd><dt><b>Type</b></dt><dd>ENUM:snow_albedo_function_types</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd>
+        <dt><b>Description</b></dt><dd>Describe the function types if prognostic snow albedo</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd><dt><b>Type</b></dt><dd>ENUM:snow_albedo_function_types</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If prognostic, </dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd><dt><b>Type</b></dt><dd>ENUM:snow_albedo_function_types</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd>
+        <dt><b>Description</b></dt><dd>Describe the function types if prognostic snow albedo</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd><dt><b>Type</b></dt><dd>ENUM:snow_albedo_function_types</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.snow.snow_albedo.functions</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="vegetation type"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1825,35 +1552,7 @@
         <dt><b>Description</b></dt><dd>Land surface vegetation</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the vegetation in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the vegetation in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface vegetation in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface vegetation in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="time_step"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -2109,14 +1808,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
+        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
+        <dt><b>Description</b></dt><dd>If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.vegetation.vegetation_map</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="interception"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2399,35 +2098,7 @@
         <dt><b>Description</b></dt><dd>Land surface energy balance</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the energy balance in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the energy balance in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface energy balance in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface energy balance in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.energy_balance.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.energy_balance.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -2532,35 +2203,7 @@
         <dt><b>Description</b></dt><dd>Land surface carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the carbon cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the carbon cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface carbon cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface carbon cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -2641,24 +2284,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation</dd>
+        <dt><b>Description</b></dt><dd>Vegetation treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_carbon_pools"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_carbon_pools"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -2704,7 +2333,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis</dd>
+        <dt><b>Description</b></dt><dd>Photosynthesis treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.photosynthesis</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2725,7 +2354,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration</dd>
+        <dt><b>Description</b></dt><dd>Autotrophic respiration treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.autotrophic_respiration</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="maintainance_respiration"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2760,7 +2389,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation</dd>
+        <dt><b>Description</b></dt><dd>Allocation treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.allocation</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2865,66 +2494,52 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology</dd>
+        <dt><b>Description</b></dt><dd>Phenology treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the phenology scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.phenology.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="mortality"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality</dd>
+        <dt><b>Description</b></dt><dd>Vegetation mortality treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
+        <dt><b>Description</b></dt><dd>Describe the general principle behind the mortality scheme</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.vegetation.mortality.method</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="litter"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter</dd>
+        <dt><b>Description</b></dt><dd>Litter treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.litter.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.litter.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_carbon_pools"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_carbon_pools"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -2984,24 +2599,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil</dd>
+        <dt><b>Description</b></dt><dd>Soil treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.soil.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.soil.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_carbon_pools"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_carbon_pools"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3061,24 +2662,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon</dd>
+        <dt><b>Description</b></dt><dd>Permafrost carbon treatment in carbon cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="is_permafrost_included"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="is_permafrost_included"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3124,14 +2711,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
+        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
+        <dt><b>Description</b></dt><dd>Describe the impact of permafrost on soil properties</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="nitrogen_cycle"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3148,35 +2735,7 @@
         <dt><b>Description</b></dt><dd>Land surface nitrogen cycle</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the nitrogen cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the nitrogen cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface nitrogen cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface nitrogen cycle in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.nitrogen_cycle.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.nitrogen_cycle.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3232,35 +2791,7 @@
         <dt><b>Description</b></dt><dd>Land surface river routing</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the river routing in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the river routing in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface river routing in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface river routing in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tiling"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3306,14 +2837,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
+        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
+        <dt><b>Description</b></dt><dd>General description of grid, if not inherited from land surface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.grid_description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_reservoirs"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -3481,24 +3012,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.oceanic_discharge</dd>
+        <dt><b>Description</b></dt><dd>Oceanic discharge treatment in river routing</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.oceanic_discharge</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.oceanic_discharge.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.oceanic_discharge.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.river_routing.oceanic_discharge.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.river_routing.oceanic_discharge.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="discharge_type"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="discharge_type"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3575,35 +3092,7 @@
         <dt><b>Description</b></dt><dd>Land surface lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the lakes in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.name</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Commonly used name for the lakes in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.name</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface lakes in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of land surface lakes in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="coupling_with_rivers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="coupling_with_rivers"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3670,14 +3159,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
+        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
+        <dt><b>Description</b></dt><dd>Describe the vertical grid of lakes</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.vertical_grid</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic_variables"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -3698,24 +3187,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.method</dd>
+        <dt><b>Description</b></dt><dd>Lakes treatment</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.method</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.method.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.method.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.method.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.method.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="ice_treatment"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="ice_treatment"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -3824,24 +3299,10 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TODO</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands</dd>
+        <dt><b>Description</b></dt><dd>Welands treatment</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.wetlands.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of todo in land model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.land.lakes.wetlands.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.land.lakes.wetlands.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>

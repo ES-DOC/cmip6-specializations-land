@@ -35,10 +35,10 @@ DETAILS['toplevel'] = {
 }
 
 # --------------------------------------------------------------------
-# CARBON CYCLE: process
+# CARBON CYCLE
 # --------------------------------------------------------------------
 DETAILS['vegetation'] = {
-    'description': 'TODO',
+    'description': 'Vegetation treatment in carbon cycle',
     'properties' : [ 
         ('number_of_carbon_pools', 'int', '1.1',
              'Enter the number of carbon pools used'),
@@ -50,7 +50,7 @@ DETAILS['vegetation'] = {
 }
 
 DETAILS['vegetation:photosynthesis'] = {
-    'description': 'TODO',
+    'description': 'Photosynthesis treatment in carbon cycle',
     'properties' : [
         ('method', 'l-str', '0.1',
             'Describe the general method used for photosynthesis (e.g. type of photosynthesis, distinction between C3 and C4 grasses, Nitrogen depencence, etc.)',)
@@ -58,7 +58,7 @@ DETAILS['vegetation:photosynthesis'] = {
 }
 
 DETAILS['vegetation:autotrophic_respiration'] = {
-    'description': 'TODO',
+    'description': 'Autotrophic respiration treatment in carbon cycle',
     'properties' : [
         ('maintainance_respiration', 'l-str', '0.1',
             'Describe the general method used for maintainence respiration'),
@@ -68,7 +68,7 @@ DETAILS['vegetation:autotrophic_respiration'] = {
     }
 
 DETAILS['vegetation:allocation'] = {
-    'description': 'TODO',
+    'description': 'Allocation treatment in carbon cycle',
     'properties' : [
         ('method', 'l-str', '1.1',
              'Describe the general principle behind the allocation scheme'),
@@ -80,26 +80,26 @@ DETAILS['vegetation:allocation'] = {
     }
 
 DETAILS['vegetation:phenology'] = {
-    'description': 'TODO',
+    'description': 'Phenology treatment in carbon cycle',
     'properties' : [
-        ('method', 'l-str', '1.1',
+        ('method', 'str', '1.1',
              'Describe the general principle behind the phenology scheme'),
     ]
 }
 
 DETAILS['vegetation:mortality'] = {
-    'description': 'TODO',
+    'description': 'Vegetation mortality treatment in carbon cycle',
     'properties' : [
-        ('method', 'l-str', '1.1',
+        ('method', 'str', '1.1',
              'Describe the general principle behind the mortality scheme'),
     ]
 }
 
 # --------------------------------------------------------------------
-# CARBON CYCLE: process
+# CARBON CYCLE
 # --------------------------------------------------------------------
 DETAILS['litter'] = {
-    'description': 'TODO',
+    'description': 'Litter treatment in carbon cycle',
     'properties' : [
         ('number_of_carbon_pools', 'int', '1.1',
              'Enter the number of carbon pools used'),
@@ -116,7 +116,7 @@ DETAILS['litter'] = {
 # CARBON CYCLE: process
 # --------------------------------------------------------------------
 DETAILS['soil'] = {
-    'description': 'TODO',
+    'description': 'Soil treatment in carbon cycle',
     'properties' : [
         ('number_of_carbon_pools', 'int', '1.1',
              'Enter the number of carbon pools used'),
@@ -134,7 +134,7 @@ DETAILS['soil'] = {
 # CARBON CYCLE: process
 # --------------------------------------------------------------------
 DETAILS['permafrost_carbon'] = {
-    'description': 'TODO',
+    'description': 'Permafrost carbon treatment in carbon cycle',
     'properties' : [
         ('is_permafrost_included', 'bool', '1.1',
              'Is permafrost included?'),
@@ -142,7 +142,7 @@ DETAILS['permafrost_carbon'] = {
              'List the GHGs emitted'),
         ('decomposition', 'cs-str', '0.1',
              'List the decomposition methods used'),
-        ('impact_on_soil_properties', 'l-str', '0.1',
+        ('impact_on_soil_properties', 'str', '0.1',
              'Describe the impact of permafrost on soil properties'),
     ]
 }
@@ -151,7 +151,7 @@ DETAILS['permafrost_carbon'] = {
 # CARBON CYCLE: ENUMERATIONS
 # --------------------------------------------------------------------
 ENUMERATIONS['anthropogenic_carbon_methods'] = {
-    'description': 'Treatment of the anthropogenic carbn pool',
+    'description': 'Treatment of the anthropogenic carbon pool',
     'is_open': True,
     'members': [
         ('grand slam protocol', None),

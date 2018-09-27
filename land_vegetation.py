@@ -36,7 +36,7 @@ DETAILS['toplevel'] = {
              'List of biome types in the classification, if any'),
         ('vegetation_time_variation', 'ENUM:vegetation_time_variation', '1.1',
              'How the vegetation fractions in each tile are varying with time'),
-        ('vegetation_map', 'l-str', '0.1',
+        ('vegetation_map', 'str', '0.1',
              'If vegetation fractions are not dynamically updated , describe the vegetation map used (common name and reference, if possible)'),
         ('interception', 'bool', '1.1',
              'Is vegetation interception of rainwater represented?'),

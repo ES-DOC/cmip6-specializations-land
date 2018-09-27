@@ -28,7 +28,7 @@ DETAILS['toplevel'] = {
              'Time step of lake scheme in seconds'),
         ('quantities_exchanged_with_rivers', 'ENUM:quantities_exchanged_with_rivers_types', '0.N',
              'If coupling with rivers, which quantities are exchanged between the lakes and rivers'),
-        ('vertical_grid', 'l-str', '0.1',
+        ('vertical_grid', 'str', '0.1',
              'Describe the vertical grid of lakes'),
         ('prognostic_variables', 'cs-str', '1.1',
              'List the prognostic variables of the lake scheme'),
@@ -39,7 +39,7 @@ DETAILS['toplevel'] = {
 # LAKES: process
 # --------------------------------------------------------------------
 DETAILS['method'] = {
-    'description': 'TODO',
+    'description': 'Lakes treatment',
     'properties' : [
         ('ice_treatment', 'bool', '1.1',
              'Is lake ice included?'),
@@ -58,7 +58,7 @@ DETAILS['method'] = {
 # LAKES: Wetlands
 # --------------------------------------------------------------------
 DETAILS['wetlands'] = {
-    'description': 'TODO',
+    'description': 'Welands treatment',
     'properties' : [
         ('description', 'l-str', '0.1',
              'Describe the treatment of wetlands, if any'),
