@@ -38,7 +38,7 @@ DETAILS['toplevel'] = {
 }
 
 DETAILS['conservation_properties'] = {
-    'description': 'Convservation',
+    'description': 'Conservation',
     'properties' : [
         ('energy', 'l-str', '0.1',
              'Describe if/how energy is conserved globally and to what level (e.g. within X [units]/year)'),
