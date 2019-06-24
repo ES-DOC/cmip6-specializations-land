@@ -44,6 +44,8 @@ CHANGE_HISTORY = [
          "Added key_propoerties.tuning_applied"),
     ("1.1.1", "2019-06-24", "David Hassell",
          "Typo: 'Convservation'"),
+    ("1.1.2", "2019-06-24", "David Hassell",
+         "New time step properties and cardinalities in carbon cycle"),
 ]
 
 # --------------------------------------------------------------------
